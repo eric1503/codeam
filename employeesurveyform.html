@@ -1,0 +1,128 @@
+<!--data type-->
+<!DOCTYPE html>
+<!--language used-->
+<html lang="en">
+
+<head>
+    <!--Website Configuration-->
+    <meta charset="UTF-8"/>
+    <meta name ="viewport" content="width=device-width, initial scale=1.0"/>
+    <meta http-equiv"X-UA-Compatible" content="ie=edge"/>
+    <!--Bar Title-->
+    <title>Survey Form</title>
+</head>
+
+<body bgcolor="#ffd88a">
+    <section>
+        <!--Page Title-->
+        <h1>
+            Employee Interest Survey Form
+        </h1>
+    </section>
+
+    <br>
+    
+    <section>
+        <div>
+            <h3>
+                Name
+            </h3>
+        
+            <p>
+                Enter your name: <input type="text" name=""/>
+            </p>
+        </div>
+    </section>
+    
+    <section>
+        <div>
+            <h3>
+                Department
+            </h3>
+        
+            <p>
+                <!--Department Input-->
+                Enter your department: <input type="text" name=""/>
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <p>
+                Tell us a little bit about yourself:
+            </p>
+            <!--Wide User Input Area-->
+            <textarea name="" cols=30 rows=4></textarea>/>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h3>
+                Exercise
+            </h3>
+            <p>
+                <!--Exercise-->
+                Do you exercise at home?
+                <!--Radio buttons-->
+                <input type="radio" name="exe" value="Yes">
+                <label for="Yes">Yes</label>
+                <input type="radio" name="exe" value="No">
+                <label for="No">No</label>
+            </p>
+
+            <h3>
+                <!--Favorite Topic-->
+                How do you like to read about your favorite topics?
+            </h3>
+
+            <p>
+                <!--Checkboxes-->
+                <input type="checkbox" name="Books">Books
+                <input type="checkbox" name="Books">Resources
+                <input type="checkbox" name="Books">Phone Apps
+                <input type="checkbox" name="Books">Magazines
+            </p>
+
+            <div>
+                <!--Movie Genre-->
+                <p>
+                    What genre of movies do you like?
+                </p>
+                <p>
+                    <!--Dropdown bar-->
+                    <select name="moviepref">
+                        <option value="1" selected="true">comedy</option>
+                        <option value="2">romance</option>
+                        <option value="3">thriller</option>
+                        <option value="4">horror</option>
+                        <option value="5">biopic</option>
+                    </select>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <br><br>
+
+    <!--Submit the information entered in the form by the user-->
+    <section>
+        <div>
+            <button type="submit"> Submit Form </button>
+        </div>
+    </section>
+
+    <br><br><br><br>
+
+    <!--Footer-->
+    <section>
+        <footer>
+            <p>
+                2021 Codeamm-All rights reserved
+            </p>
+        </footer>
+    </section>
+</body>
+
+</html>
