@@ -116,7 +116,7 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `air-98-persen/` | 10 slide (slide PR sudah dihapus) |
 | `rpm-grindsize/` | 12 slide |
 | `crema-espresso/` | 12 slide |
-| `kafe-vs-rumah/` | 13 slide |
+| `kafe-vs-rumah/` | 9 slide |
 
 ---
 
