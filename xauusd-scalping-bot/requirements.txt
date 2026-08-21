@@ -1,0 +1,9 @@
+# Inti
+pandas>=2.0
+numpy>=1.24
+requests>=2.31
+PyYAML>=6.0
+
+# Data & eksekusi via MetaTrader 5 (HANYA jalan di Windows / VPS Windows)
+# Di Mac/Linux, komentari baris ini dan pakai provider "twelvedata"
+MetaTrader5>=5.0.45; sys_platform == "win32"
