@@ -1,0 +1,71 @@
+# =========================================================
+# Konfigurasi XAUUSD Scalping Bot
+# Copy file ini jadi `config.yaml` lalu isi nilai aslinya.
+# JANGAN commit config.yaml ke git (sudah ada di .gitignore).
+# =========================================================
+
+symbol: "XAUUSD"          # cek nama simbol di broker kamu: XAUUSD / XAUUSDm / GOLD
+timezone: "Asia/Jakarta"  # WIB
+
+data:
+  provider: "mt5"         # "mt5" (rekomendasi) atau "twelvedata"
+  poll_seconds: 10        # jeda cek harga (detik)
+  twelvedata_api_key: ""  # isi kalau provider=twelvedata
+
+mt5:
+  login: 0                # nomor akun demo/live
+  password: ""
+  server: ""              # mis. "Exness-MT5Trial", lihat di terminal MT5
+  # Kosongkan semua kalau terminal MT5 sudah login manual — robot akan attach saja.
+
+telegram:
+  enabled: true
+  bot_token: ""           # dari @BotFather
+  chat_id: ""             # dari @userinfobot (atau id grup, biasanya negatif)
+
+strategy:
+  # H1 — trend
+  ema_fast: 50
+  ema_slow: 200
+  # M15 — struktur & zona
+  swing_lookback: 2       # fractal: 2 candle kiri-kanan
+  zone_atr_mult: 0.5      # tebal zona = 0.5 x ATR M15
+  # M5 — trigger
+  rsi_period: 14
+  rsi_overbought: 70
+  rsi_oversold: 30
+  atr_period: 14
+  sl_buffer_atr: 0.3      # buffer SL di luar swing
+  sl_min_atr: 1.0         # SL minimal 1 x ATR (anti SL kesempitan)
+  risk_reward: 2.0        # TP = 2 x jarak SL
+  breakeven_at_r: 1.0     # pindah SL ke entry setelah profit 1R (0 = nonaktif)
+  # Sesi trading (jam lokal sesuai timezone di atas). London + New York.
+  session_start: "14:00"
+  session_end: "23:00"
+  no_trade_friday_after: "21:00"   # hindari weekend gap
+
+risk:
+  risk_per_trade: 0.005   # 0.5% dari balance per trade
+  max_daily_loss: 0.02    # berhenti trading hari ini setelah -2%
+  max_trades_per_day: 5
+  max_open_positions: 1
+  max_spread_usd: 0.40    # skip entry kalau spread > $0.40 (proteksi saat spread melebar)
+
+news:
+  enabled: true
+  currencies: ["USD"]     # news mata uang yang difilter
+  impact_levels: ["High"] # bisa tambah "Medium"
+  block_minutes_before: 60
+  block_minutes_after: 60
+  close_positions_before_news: false   # true = tutup posisi sebelum news besar
+
+backtest:
+  data_dir: "data"        # folder CSV historis (m5.csv, m15.csv, h1.csv)
+  initial_balance: 1000
+  spread_usd: 0.20        # spread rata-rata akun raw/zero
+  commission_per_lot: 7.0 # komisi round-trip per 1.0 lot (USD), cek broker
+  slippage_usd: 0.05
+  csv_to_local_offset_hours: 5  # waktu CSV (server broker UTC+2) -> WIB (UTC+7)
+
+logging:
+  trades_csv: "trades_log.csv"
