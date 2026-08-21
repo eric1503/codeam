@@ -75,6 +75,10 @@ Dose 15 g · suhu 92 °C · rasio 1:15 · open switch di 0:50 · close switch 1:
    carousel air atas permintaannya. Konten boleh berakhir di ringkasan atau sumber.
 8. **Format poin lebih disukai** daripada paragraf panjang — gaya catatan tulis tangannya:
    satu baris, satu fungsi.
+9. **Jangan bikin klaim yang bisa menyinggung kelompok manapun.** Dustin sudah minta satu slide
+   dihapus karena membandingkan robusta dengan arabika — Indonesia produsen robusta besar, dan
+   itu bisa menyinggung petani serta pelaku industri. Sebelum menulis perbandingan, tanya:
+   *"apakah ada kelompok yang bisa merasa direndahkan?"* Kalau iya, cari sudut lain.
 
 ---
 
@@ -111,6 +115,8 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 |---|---|
 | `air-98-persen/` | 10 slide (slide PR sudah dihapus) |
 | `rpm-grindsize/` | 12 slide |
+| `crema-espresso/` | 12 slide |
+| `kafe-vs-rumah/` | 13 slide |
 
 ---
 
@@ -163,7 +169,18 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 - **Illy & Viani (2005)**: konvensi crema ≥10% volume, bertahan ≥2 menit
 - **Crema BUKAN penanda kualitas** — kopi basi & robusta tetap menghasilkan crema
 - Crema cenderung **pahit & astringen**; bagian bawah lebih manis (BUKTI SEDANG)
+- ⚠️ Slide soal robusta vs arabika **sudah dihapus** atas permintaan Dustin — berisiko menyinggung
 - Buku: **Jonathan Gagné — *The Physics of Espresso***, terpisah dari *The Physics of Filter Coffee*
+
+---
+
+### Kafe vs rumah
+- **Resep itu catatan hasil kalibrasi, bukan penyebab rasa** — ini thesis kontennya
+- Jendela rasa terbaik kopi: **±7–21 hari setelah sangrai** (light lebih lama, dark lebih cepat)
+- Grinder: tiap alat beda sebaran partikelnya (Coffee ad Astra, 300 PSD dari 24 grinder)
+- **Charles Spence** (Oxford, 30+ tahun riset persepsi rasa), buku *Gastrophysics* — suasana,
+  musik, cahaya, cangkir, dan ekspektasi ikut mengubah rasa yang dipersepsikan
+- Kestabilan suhu & tekanan mesin komersial = **BUKTI SEDANG**, jangan sebut angka pasti
 
 ---
 
@@ -178,6 +195,7 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | *The Physics of Filter Coffee* — Jonathan Gagné (2020) | Seduh filter |
 | *Espresso Coffee: The Science of Quality* — Illy & Viani (2nd ed.) | Espresso, crema |
 | *The Professional Barista's Handbook* — Scott Rao (2008) | Grinding (bacaan lanjutan) |
+| *Gastrophysics: The New Science of Eating* — Charles Spence | Pengaruh suasana & ekspektasi terhadap rasa |
 | *The Craft and Science of Coffee* — ed. Britta Folmer | Bacaan lanjutan — **bukan sumber angka** |
 
 ---
