@@ -92,6 +92,11 @@ Dose 15 g · suhu 92 °C · rasio 1:15 · open switch di 0:50 · close switch 1:
 - **Label pojok kiri bawah: `@Dustin_wijaya04`** — casing persis begitu, jangan di-uppercase
 - Pojok kanan bawah: nomor slide `01 / 10`. Slide pertama pakai `geser →`
 - Font: Liberation Sans (fallback DejaVu Sans) — Google Fonts tidak bisa dimuat di environment ini
+- **Subtitle Inggris** (sejak permintaan Dustin): tiap eyebrow, headline, body, dan item punya
+  versi Inggris di bawahnya — *italic*, lebih redup (45–52% putih), ukuran lebih kecil. Body
+  Inggris dikasih garis aksen di kiri. Tujuannya penonton luar negeri ikut ngerti tanpa teks
+  Inggrisnya rebutan perhatian sama teks Indonesia.
+- Slide dengan **4 item atau lebih** otomatis pakai mode `dense` (font dikecilin) biar ga kepotong
 
 ### Cara render ulang
 Generator ada di scratchpad (hilang tiap sesi baru). Kalau perlu dibuat ulang:
