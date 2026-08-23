@@ -114,6 +114,8 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `TOFU 02 - Nyeduh per Roast Level.docx` | Light = kentang · Medium = ayam · Dark = bayam. **Ini satu-satunya konten yang analoginya penuh** |
 | `TOFU 03 - Kopi 98 Persen Air.docx` | Kandungan air per ion. **Tanpa analogi**, format daftar |
 | `EVENT - Bar Takeover Andika Nugraha.docx` | Rencana konten acara 20 Agt 2026 |
+| `MOFU - PPM Air untuk Filter Coffee.docx` | Sweet spot 100–150 ppm buat filter coffee (SCA ideal 150, rentang 75–250) |
+| `MOFU - Termal vs Kinetik.docx` | Kerangka dua energi dari sketsa Dustin — suhu (termal) vs agitasi (kinetik) |
 
 ### `carousel/` — gambar siap posting
 | Folder | Isi |
@@ -178,6 +180,24 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 - Buku: **Jonathan Gagné — *The Physics of Espresso***, terpisah dari *The Physics of Filter Coffee*
 
 ---
+
+### PPM air untuk filter coffee
+- SCA Golden Cup: ideal **150 ppm TDS**, rentang aman **75–250 ppm**
+- Filter coffee (beda dari espresso) sweet spot praktisi: **100–150 ppm** — ini **konsensus praktisi**,
+  bukan angka resmi terpisah dari SCA. Jangan bilang "SCA bilang khusus filter coffee segini"
+- TDS sama ≠ rasa sama — komposisi mineral (Mg/Na/bikarbonat) tetap nentuin, lihat riset air di atas
+- Buku *Physics of Filter Coffee* Gagné: ada bab air, tapi ga ketemu angka ppm spesifik lewat
+  pencarian — dipakai sebagai rujukan konsep (alkalinitas vs kesadahan), bukan sumber angka
+
+### Termal vs kinetik (dari sketsa tangan Dustin)
+- Kerangka Dustin (termal=suhu=gampang diubah, kinetik=agitasi=sulit diubah) **akurat secara fisika**,
+  tapi **BUKAN istilah baku industri** — industri pakai "3T" (Time, Temperature, Turbulence).
+  Framing di video: "cara gue liatnya", bukan "riset bilang cuma ada dua kategori"
+- Suhu: patokan SCA 90–96°C, mudah dijaga stabil pakai kettle
+- Agitasi: **variabel paling ga konsisten** dari semua variabel seduh (Ratio Coffee, Shiren Coffee)
+- Sumber agitasi bukan cuma tuangan — **CO₂ yang keluar sendiri pas bloom juga bikin turbulensi alami**,
+  ini insight paling kuat buat kontennya
+- Teknik "Rao spin" (Scott Rao): swirl abis bloom + swirl lagi menjelang akhir seduhan
 
 ### Kafe vs rumah
 - **Resep itu catatan hasil kalibrasi, bukan penyebab rasa** — ini thesis kontennya
