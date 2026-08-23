@@ -115,7 +115,7 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `TOFU 03 - Kopi 98 Persen Air.docx` | Kandungan air per ion. **Tanpa analogi**, format daftar |
 | `EVENT - Bar Takeover Andika Nugraha.docx` | Rencana konten acara 20 Agt 2026 |
 | `MOFU - PPM Air untuk Filter Coffee.docx` | Sweet spot 100–150 ppm buat filter coffee (SCA ideal 150, rentang 75–250) |
-| `MOFU - Termal vs Kinetik.docx` | Kerangka dua energi dari sketsa Dustin — suhu (termal) vs agitasi (kinetik) |
+| `MOFU - Termal vs Mekanik.docx` | Kerangka dua energi dari sketsa Dustin — suhu (termal) vs flow/agitasi (mekanik), struktur (grind size) sbg kanvas |
 
 ### `carousel/` — gambar siap posting
 | Folder | Isi |
@@ -189,15 +189,19 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 - Buku *Physics of Filter Coffee* Gagné: ada bab air, tapi ga ketemu angka ppm spesifik lewat
   pencarian — dipakai sebagai rujukan konsep (alkalinitas vs kesadahan), bukan sumber angka
 
-### Termal vs kinetik (dari sketsa tangan Dustin)
-- Kerangka Dustin (termal=suhu=gampang diubah, kinetik=agitasi=sulit diubah) **akurat secara fisika**,
-  tapi **BUKAN istilah baku industri** — industri pakai "3T" (Time, Temperature, Turbulence).
-  Framing di video: "cara gue liatnya", bukan "riset bilang cuma ada dua kategori"
-- Suhu: patokan SCA 90–96°C, mudah dijaga stabil pakai kettle
-- Agitasi: **variabel paling ga konsisten** dari semua variabel seduh (Ratio Coffee, Shiren Coffee)
-- Sumber agitasi bukan cuma tuangan — **CO₂ yang keluar sendiri pas bloom juga bikin turbulensi alami**,
-  ini insight paling kuat buat kontennya
-- Teknik "Rao spin" (Scott Rao): swirl abis bloom + swirl lagi menjelang akhir seduhan
+### Termal vs Mekanik (dari sketsa tangan Dustin, disempurnakan dengan riset dia sendiri)
+- **Koreksi penting:** versi awal makai "Kinetik" — diganti ke **"Mekanik"** karena "kinetics" di
+  literatur ekstraksi kopi udah punya arti sendiri (laju ekstraksi thd waktu, gabungan suhu+partikel+flow),
+  bukan "energi gerak". Pakai "kinetik" di sini tabrakan makna sama paper yang jadi sumbernya sendiri
+- Kerangka final: **Termal** (suhu) + **Mekanik** (flow/tuangan/agitasi) = dua energi. **Struktur**
+  (ukuran gilingan, fines) BUKAN energi ketiga — itu "kanvas" yang nentuin jarak difusi (model Moroney dkk.)
+- 6 sumber (semua terverifikasi, dari riset Dustin sendiri — kualitasnya lebih tinggi dari kerangka awal):
+  Wang & Lim (2021, suhu 4-93°C, makin panas makin cepat ekstraksi) · Sano dkk. (2019, model mass-transfer,
+  flow+partikel+stirring) · Ahmed dkk. (2019, agitasi naikin TDS signifikan) · model double-porosity
+  Moroney dkk. (broken cells vs intact cells, Hukum Darcy) · Schmieder dkk. (2023, Foods 12(15):2871 —
+  flow rate variabel PALING dominan) · Gagné/Coffee ad Astra (agitasi berlebih → fines migrasi → clogging)
+- Framing di video: "kalau disederhanain, ada dua energi dan satu kanvas" — bukan "riset bilang cuma
+  ada dua kategori resmi". Ini sintesis dari 6 studi, bukan istilah baku satu paper
 
 ### Kafe vs rumah
 - **Resep itu catatan hasil kalibrasi, bukan penyebab rasa** — ini thesis kontennya
