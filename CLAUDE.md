@@ -96,7 +96,10 @@ Dose 15 g · suhu 92 °C · rasio 1:15 · open switch di 0:50 · close switch 1:
   versi Inggris di bawahnya — *italic*, lebih redup (45–52% putih), ukuran lebih kecil. Body
   Inggris dikasih garis aksen di kiri. Tujuannya penonton luar negeri ikut ngerti tanpa teks
   Inggrisnya rebutan perhatian sama teks Indonesia.
-- Slide dengan **4 item atau lebih** otomatis pakai mode `dense` (font dikecilin) biar ga kepotong
+- Slide dengan **4 item atau lebih** otomatis pakai mode `dense` (font dikecilin) biar ga kepotong.
+  Bisa juga dipaksa manual lewat flag `dense: true` di slide-nya
+- **Palet hitam putih** tersedia lewat env `MONO=1` — aksen amber diganti putih, `h1` jadi 80% putih
+  dengan `<em>` putih penuh sebagai penekanan. Dipakai di carousel paper-filter atas permintaan Dustin
 
 ### Cara render ulang
 Generator ada di scratchpad (hilang tiap sesi baru). Kalau perlu dibuat ulang:
@@ -124,6 +127,7 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `rpm-grindsize/` | 11 slide |
 | `crema-espresso/` | 11 slide |
 | `kafe-vs-rumah/` | 9 slide |
+| `paper-filter/` | 9 slide — **PALET HITAM PUTIH**, bukan amber |
 
 ---
 
@@ -202,6 +206,21 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
   flow rate variabel PALING dominan) · Gagné/Coffee ad Astra (agitasi berlebih → fines migrasi → clogging)
 - Framing di video: "kalau disederhanain, ada dua energi dan satu kanvas" — bukan "riset bilang cuma
   ada dua kategori resmi". Ini sintesis dari 6 studi, bukan istilah baku satu paper
+
+### Paper filter (kertas filter)
+- **Cafestol/kahweol**: paper filter 12 mg/L · mesin kantor 176 mg/L · kopi rebus **939 mg/L**
+  (Uppsala University, 2025). Temuan menarik: sebagian besar cafestol tertahan di AMPAS, bukan kertasnya
+- **Gagné** periksa **13 kertas filter di bawah mikroskop** — anyaman serat beda = laju alir beda
+- **James Hoffmann** metode uji rasa kertas: rendam di air panas, cicipi airnya. Unbleached lebih
+  kuat rasa kertasnya; kertas merek sama dari pabrik beda pun rasanya beda
+- **Sibarist FAST**: serat abaca + selulosa, oxygen-bleached, klaim 15–40% lebih cepat, ~8× harga Hario
+- **Hiflux**: buatan Korea, serat **lyocell** + anyaman 3D, klaim sampai **42%** lebih cepat.
+  Bedanya: Hiflux sengaja **ngelolosin lebih banyak minyak + sedikit fines** → body lebih tebal
+- ⚠️ Angka 15–40% dan 42% itu **KLAIM PRODUSEN** — belum ada uji independen terkontrol yang
+  membandingkan keduanya
+- **Abaca** = spesies **pisang** (*Musa textilis*), bukan hemp. Serat dari pelepah daun, panjang 1–3 m,
+  serat alami terkuat, kandungan selulosa 56–68%. **Selulosa** di daftar bahan = bubur kayu (serat pendek).
+  Jadi bukan dua bahan beda — dua PANJANG SERAT beda
 
 ### Kafe vs rumah
 - **Resep itu catatan hasil kalibrasi, bukan penyebab rasa** — ini thesis kontennya
