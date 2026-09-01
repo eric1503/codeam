@@ -128,7 +128,7 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `crema-espresso/` | 11 slide |
 | `kafe-vs-rumah/` | 9 slide |
 | `paper-filter/` | 9 slide — **PALET HITAM PUTIH**, bukan amber |
-| `dripper-material/` | 12 slide — keramik/kaca/stainless/plastik |
+| `dripper-material/` | 12 slide — bahan dripper & **arah rasa** (peta rasa dari Dustin) |
 | `termal-mekanik/` | 12 slide — dua energi & satu kanvas |
 
 ---
@@ -199,6 +199,8 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 - **Koreksi penting:** versi awal makai "Kinetik" — diganti ke **"Mekanik"** karena "kinetics" di
   literatur ekstraksi kopi udah punya arti sendiri (laju ekstraksi thd waktu, gabungan suhu+partikel+flow),
   bukan "energi gerak". Pakai "kinetik" di sini tabrakan makna sama paper yang jadi sumbernya sendiri
+- **Bahasa:** sebut **"variabel"**, jangan "tombol". Dustin ga suka metafora tombol/knob — kurang enak
+  didengar. Berlaku di semua materi, bukan cuma carousel ini
 - Kerangka final: **Termal** (suhu) + **Mekanik** (flow/tuangan/agitasi) = dua energi. **Struktur**
   (ukuran gilingan, fines) BUKAN energi ketiga — itu "kanvas" yang nentuin jarak difusi (model Moroney dkk.)
 - 6 sumber (semua terverifikasi, dari riset Dustin sendiri — kualitasnya lebih tinggi dari kerangka awal):
@@ -241,6 +243,14 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 - Rantai bukti yang sah: bahan→suhu = BUKTI SEDANG (uji praktisi); suhu→ekstraksi = BUKTI KUAT (Wang & Lim)
 - Sumber praktisi: Andytown Coffee Roasters · Home-Barista forum · Basic Barista "Metal vs Ceramic V60" ·
   Barista Hustle P 1.01 Preheating · Gagné (massa termal & insulasi brewer)
+- **Peta arah rasa versi Dustin** (dipakai di carousel, level BUKTI SEDANG): plastik → manis, clarity,
+  aromatik · kaca → acidity paling kebaca · keramik → kompleks & bulat · stainless → aftertaste bersih
+  & ekstraksi tinggi. Sudah dicek: peta ini **konsisten sama fisikanya** (makin sedikit panas yang
+  diambil dripper → suhu makin stabil → ekstraksi makin rata). Tapi tetap uji praktisi, bukan riset
+- **Framing yang dipakai:** "dripper nentuin ARAH rasa", bukan "dripper bikin enak/ga enak", dan bukan
+  "dripper nyuri panas" (hook itu ditolak Dustin — terlalu negatif)
+- Syarat mutlak yang selalu disebut bareng peta rasa: **kalau ga di-preheat, arah rasanya ga muncul
+  sama sekali**. Stainless paling bergantung preheat karena massanya paling kecil
 
 ### Kafe vs rumah
 - **Resep itu catatan hasil kalibrasi, bukan penyebab rasa** — ini thesis kontennya
