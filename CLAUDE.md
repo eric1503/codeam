@@ -128,6 +128,8 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `crema-espresso/` | 11 slide |
 | `kafe-vs-rumah/` | 9 slide |
 | `paper-filter/` | 9 slide — **PALET HITAM PUTIH**, bukan amber |
+| `dripper-material/` | 12 slide — keramik/kaca/stainless/plastik |
+| `termal-mekanik/` | 12 slide — dua energi & satu kanvas |
 
 ---
 
@@ -222,6 +224,24 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
   serat alami terkuat, kandungan selulosa 56–68%. **Selulosa** di daftar bahan = bubur kayu (serat pendek).
   Jadi bukan dua bahan beda — dua PANJANG SERAT beda
 
+### Bahan dripper (keramik · kaca · stainless · plastik)
+- Konduktivitas termal: **plastik AS/PP ±0,33 · kaca ±0,9 · keramik ±4 · stainless 304 ±16 W/(m·K)**.
+  Ini data sifat bahan standar, **bukan** hasil riset kopi
+- Dua sifat yang main: **konduktivitas** (cepat-lambatnya panas lewat) + **massa termal**
+  (banyak-sedikitnya panas yang harus diserap sebelum bendanya sendiri hangat — dinding tebal = besar)
+- Dripper **ga dipanasin duluan**: air ±95 °C bisa turun ke **±82 °C** (≈20 derajat). Patokan SCA 90–96 °C
+- ⚠️ **Tapi kalau semuanya di-preheat, selisihnya cuma 1–2 °C** (Andytown, uji berdampingan: 2–4 °F;
+  plastik tertinggi, keramik terendah). Jadi angka 20 derajat itu soal preheat, bukan soal bahan
+- Uji rasanya **saling bertentangan**: ada yang bilang plastik nendang/kaca bersih/keramik bulat,
+  ada yang bilang plastik & kaca sama persis. Stainless malah berperilaku mirip plastik (dinding tipis)
+- ⚠️ **BELUM ADA riset peer-review khusus soal bahan dripper.** Semua uji yang ada = uji praktisi.
+  Jangan sebut angka bahan→rasa sebagai fakta
+- Plastik dipakai Hoffmann, Scott Rao, dan sebagian besar juara World Brewers Cup — alasannya
+  **konsistensi**, bukan "rasanya lebih enak"
+- Rantai bukti yang sah: bahan→suhu = BUKTI SEDANG (uji praktisi); suhu→ekstraksi = BUKTI KUAT (Wang & Lim)
+- Sumber praktisi: Andytown Coffee Roasters · Home-Barista forum · Basic Barista "Metal vs Ceramic V60" ·
+  Barista Hustle P 1.01 Preheating · Gagné (massa termal & insulasi brewer)
+
 ### Kafe vs rumah
 - **Resep itu catatan hasil kalibrasi, bukan penyebab rasa** — ini thesis kontennya
 - Jendela rasa terbaik kopi: **±7–21 hari setelah sangrai** (light lebih lama, dark lebih cepat)
@@ -251,6 +271,9 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 ## 8. Catatan Kerja
 
 - **Git:** kembangkan di branch `claude/coffee-tasting-notes-mhe48b`. PR #1 masih draft & open.
+- **Cek overflow slide:** `render.js` punya mode `MEASURE=1` — render tanpa nyimpen file, cuma nge-print
+  slide mana yang kepotong (`h > 1351` atau foot lewat 1281px). Jalankan tiap habis nulis slide baru,
+  jauh lebih cepat daripada ngeliatin satu-satu.
 - **Automation:** langganan PR activity & check-in terjadwal **sudah dimatikan** atas permintaan
   Dustin. Jangan dihidupkan lagi tanpa diminta.
 - **Environment:** WebFetch diblokir egress — hanya WebSearch yang jalan. LibreOffice tidak bisa
