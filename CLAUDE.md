@@ -129,7 +129,7 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `kafe-vs-rumah/` | 9 slide |
 | `paper-filter/` | 9 slide — **PALET HITAM PUTIH**, bukan amber |
 | `dripper-material/` | 12 slide — bahan dripper & **arah rasa** (peta rasa dari Dustin) |
-| `termal-mekanik/` | 12 slide — dua energi & satu kanvas |
+| `termal-mekanik/` | 11 slide — dua energi & satu kanvas |
 
 ---
 
@@ -198,7 +198,10 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 ### Termal vs Mekanik (dari sketsa tangan Dustin, disempurnakan dengan riset dia sendiri)
 - **Koreksi penting:** versi awal makai "Kinetik" — diganti ke **"Mekanik"** karena "kinetics" di
   literatur ekstraksi kopi udah punya arti sendiri (laju ekstraksi thd waktu, gabungan suhu+partikel+flow),
-  bukan "energi gerak". Pakai "kinetik" di sini tabrakan makna sama paper yang jadi sumbernya sendiri
+  bukan "energi gerak". Pakai "kinetik" di sini tabrakan makna sama paper yang jadi sumbernya sendiri.
+  ⚠️ **Ini catatan internal, JANGAN dijadikan slide.** Slide yang ngebahas "kenapa mekanik bukan kinetik"
+  sudah dihapus atas permintaan Dustin — bisa jadi bumerang, karena kelihatan kayak ngoreksi istilah
+  orang lain di depan umum. Cukup pakai "Mekanik" tanpa menjelaskan kenapa
 - **Bahasa:** sebut **"variabel"**, jangan "tombol". Dustin ga suka metafora tombol/knob — kurang enak
   didengar. Berlaku di semua materi, bukan cuma carousel ini
 - Kerangka final: **Termal** (suhu) + **Mekanik** (flow/tuangan/agitasi) = dua energi. **Struktur**
