@@ -130,7 +130,7 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `paper-filter/` | 9 slide — **PALET HITAM PUTIH**, bukan amber |
 | `dripper-material/` | 12 slide — bahan dripper & **arah rasa** (peta rasa dari Dustin) |
 | `termal-mekanik/` | 11 slide — dua energi & satu kanvas |
-| `aroma-floral/` | 8 slide — cara nonjolin aroma floral |
+| `aroma-floral/` | 7 slide — cara nonjolin aroma floral |
 
 ---
 
@@ -273,7 +273,9 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 - Menurut Peng: **aroma paling kebaca ±65 °C, rasa ±50 °C** di cangkir
 - ⚠️ **KOREKSI: Solo Dripper BUKAN flat bottom.** Dia hibrida — sudut internal **40°**, dasar melengkung,
   **satu lubang besar**. Rancangan **Jackie Tran** (Mazelab), Juara Brewers Cup Ceko 2024. Flat bottom
-  murni itu Kalita Wave / Orea / April. Dustin sempat menyebut "flat bottom seperti Solo" — sudah diluruskan
+  murni itu Kalita Wave / Orea / April. Dustin sempat menyebut "flat bottom seperti Solo" — sudah diluruskan.
+  ⚠️ Slide yang membahas ini **sudah dihapus** atas permintaan Dustin. Koreksinya tetap berlaku sebagai
+  catatan internal — jangan sebut Solo sebagai flat bottom — tapi jangan dibikin slide lagi
 
 ### Kafe vs rumah
 - **Resep itu catatan hasil kalibrasi, bukan penyebab rasa** — ini thesis kontennya
