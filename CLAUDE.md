@@ -130,6 +130,7 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `paper-filter/` | 9 slide — **PALET HITAM PUTIH**, bukan amber |
 | `dripper-material/` | 12 slide — bahan dripper & **arah rasa** (peta rasa dari Dustin) |
 | `termal-mekanik/` | 11 slide — dua energi & satu kanvas |
+| `aroma-floral/` | 8 slide — cara nonjolin aroma floral |
 
 ---
 
@@ -254,6 +255,25 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
   "dripper nyuri panas" (hook itu ditolak Dustin — terlalu negatif)
 - Syarat mutlak yang selalu disebut bareng peta rasa: **kalau ga di-preheat, arah rasanya ga muncul
   sama sekali**. Stainless paling bergantung preheat karena massanya paling kecil
+
+### Aroma floral
+- Senyawa floral = **terpen** (linalool, geraniol). **Bawaan varietas/ketinggian/proses** — seduhan bisa
+  nonjolin atau ngilangin, **tapi ga bisa bikin dari nol**. Ini framing wajib, biar ga overclaim
+- Gesha punya linalool & limonene tinggi; landrace Etiopia juga tinggi ekspresi terpennya
+- **Foods 10(6):1347 (2021)**, PMC8230519 — kondisi sangrai & metode ekstraksi = faktor signifikan buat
+  senyawa aroma. **Gilingan lebih halus → sinyal senyawa aroma terukur lebih banyak**
+- **SCA staling literature review** — menggiling menaikkan luas permukaan → aroma hilang paling cepat
+  tepat setelah digiling. ⚠️ Angka "60% dalam 15 menit" cuma ketemu di blog, **jangan dipakai sebagai
+  angka pasti** — cukup bilang "menit-menit pertama"
+- **Ketegangan penting:** suhu tinggi menaikkan ekstraksi (Wang & Lim, BUKTI KUAT), TAPI senyawa floral
+  itu paling volatil — air panas terus juga nerbangin sebagian ke udara. Jawabannya bukan "panas terus"
+- **George Jinyang Peng** — Juara **World Brewers Cup 2025 di Jakarta** (dari Cina), pakai **Solo Dripper**.
+  Resep: 15 g · 800 mikron (26–27 klik Comandante C40) · 210 ml · air 40 ppm · **96 °C dua tuangan
+  pertama, 80 °C tuangan terakhir** · total 1:45. Framing dia: "temperature is a story from origin to cup"
+- Menurut Peng: **aroma paling kebaca ±65 °C, rasa ±50 °C** di cangkir
+- ⚠️ **KOREKSI: Solo Dripper BUKAN flat bottom.** Dia hibrida — sudut internal **40°**, dasar melengkung,
+  **satu lubang besar**. Rancangan **Jackie Tran** (Mazelab), Juara Brewers Cup Ceko 2024. Flat bottom
+  murni itu Kalita Wave / Orea / April. Dustin sempat menyebut "flat bottom seperti Solo" — sudah diluruskan
 
 ### Kafe vs rumah
 - **Resep itu catatan hasil kalibrasi, bukan penyebab rasa** — ini thesis kontennya
