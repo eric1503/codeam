@@ -75,6 +75,11 @@ Dose 15 g · suhu 92 °C · rasio 1:15 · open switch di 0:50 · close switch 1:
    carousel air atas permintaannya. Konten boleh berakhir di ringkasan atau sumber.
 8. **Format poin lebih disukai** daripada paragraf panjang — gaya catatan tulis tangannya:
    satu baris, satu fungsi.
+8b. **JANGAN tulis koreksi di dalam materi jadi.** Kalau ada yang salah di draf Dustin, langsung tulis
+   versi benarnya tanpa menyebut versi lama. Sampaikan koreksinya lewat chat saja. Alasannya: kalau
+   koreksi muncul di dokumen, orang mengira Dustin yang kasih informasi salah.
+8c. **Cantumkan link sumber penuh dan klikabel di akhir tiap kalimat** — bukan cuma nomor `[n]`.
+   Tiap gambar juga dikasih link sumbernya.
 9. **Jangan bikin klaim yang bisa menyinggung kelompok manapun.** Dustin sudah minta satu slide
    dihapus karena membandingkan robusta dengan arabika — Indonesia produsen robusta besar, dan
    itu bisa menyinggung petani serta pelaku industri. Sebelum menulis perbandingan, tanya:
@@ -119,7 +124,7 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `EVENT - Bar Takeover Andika Nugraha.docx` | Rencana konten acara 20 Agt 2026 |
 | `MOFU - PPM Air untuk Filter Coffee.docx` | Sweet spot 100–150 ppm buat filter coffee (SCA ideal 150, rentang 75–250) |
 | `MOFU - Termal vs Mekanik.docx` | Kerangka dua energi dari sketsa Dustin — suhu (termal) vs flow/agitasi (mekanik), struktur (grind size) sbg kanvas |
-| `SCRIPT - Nicaragua La Bastilla Geisha Washed.docx` | Rapihan dari draf PDF Dustin. Sitasi `[n]` di akhir tiap kalimat + 5 grafis tertanam. Grafisnya di `assets/gfx-labastilla/` |
+| `SCRIPT - Nicaragua La Bastilla Geisha Washed.docx` | **Link sumber penuh & klikabel di akhir tiap kalimat** + 6 grafis tertanam (grafisnya di `assets/gfx-labastilla/`). Bagian resep sengaja dikosongkan — Dustin isi sendiri |
 
 ### `carousel/` — gambar siap posting
 | Folder | Isi |
@@ -300,7 +305,12 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
   dianggap kelemahan). 1.300–1.500 mdpl = **sedang** buat Geisha, makanya profilnya tea-like bukan meledak
 - ⚠️ Skor **84** yang beredar itu buat lot La Bastilla washed LAIN, **bukan** lot Geisha ini. Jangan dipakai
 
-### Tiga koreksi di draf PDF Dustin (sudah dibenerin di docx)
+### ⚠️ ATURAN PENTING — CARA MENYAMPAIKAN KOREKSI
+Dustin **tidak mau koreksi ditulis di dalam materi jadi** (script/carousel/dokumen). Kalau ditulis di sana,
+pembacanya mengira dia pernah kasih informasi salah. **Langsung tulis versi yang benar saja**, tanpa
+menyebut versi lamanya. Koreksi cukup disampaikan ke Dustin lewat chat, atau disimpan di CLAUDE.md ini.
+
+### Tiga koreksi di draf PDF Dustin (SUDAH diterapkan diam-diam di docx — jangan tulis sebagai koreksi)
 1. **Arah giling per proses kebalik.** Draf: natural halus, washed kasar. Patokan praktisi kebalikannya —
    natural lebih KASAR (gampang larut), washed lebih HALUS (light roast & padat). Draf lamanya juga
    bentrok sama poin ketinggiannya sendiri
