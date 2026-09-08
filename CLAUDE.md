@@ -137,6 +137,7 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `dripper-material/` | 12 slide — bahan dripper & **arah rasa** (peta rasa dari Dustin) |
 | `termal-mekanik/` | 11 slide — dua energi & satu kanvas |
 | `aroma-floral/` | 7 slide — cara nonjolin aroma floral |
+| `rasio-1-15/` | 8 slide — kenapa 1:15 dianggap golden ratio |
 
 ---
 
@@ -326,6 +327,11 @@ menyebut versi lamanya. Koreksi cukup disampaikan ke Dustin lewat chat, atau dis
   Riset SCAE: orang Eropa suka lebih pekat, sampai ±1,45–1,50% TDS — dari sini asal angka 1,45 Dustin
 - ⚠️ **Jebakan nama "TDS":** TDS air (100–150 ppm, sebelum seduh) vs TDS seduhan (1,25% = 12.500 ppm).
   Beda ±100×. Selalu sebut yang mana
+- ⚠️ **KOREKSI PENTING — resep Hoffmann.** "The Ultimate V60 Technique" (YouTube 2020) itu
+  **30 g : 500 g = 1:16,7**, BUKAN 1:15. Banyak blog salah kutip jadi 1:15 (kemungkinan ketuker sama
+  penanda waktu "1:15" di resepnya). Selalu pakai 1:16,7
+- Asal-usul populernya 1:15: angkanya bulat & gampang diinget (15 g → 225 g), plus selera spesialti
+  modern memang lebih pekat dari patokan lama. Bukan lahir dari riset
 
 ### Suhu ruangan / grinder & ukuran gilingan
 - **Uman dkk. (2016)**, *Scientific Reports* 6:24483 (co-author **Colonna-Dashwood**) — menggiling dingin
