@@ -119,6 +119,7 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `EVENT - Bar Takeover Andika Nugraha.docx` | Rencana konten acara 20 Agt 2026 |
 | `MOFU - PPM Air untuk Filter Coffee.docx` | Sweet spot 100–150 ppm buat filter coffee (SCA ideal 150, rentang 75–250) |
 | `MOFU - Termal vs Mekanik.docx` | Kerangka dua energi dari sketsa Dustin — suhu (termal) vs flow/agitasi (mekanik), struktur (grind size) sbg kanvas |
+| `SCRIPT - Nicaragua La Bastilla Geisha Washed.docx` | Rapihan dari draf PDF Dustin. Sitasi `[n]` di akhir tiap kalimat + 5 grafis tertanam. Grafisnya di `assets/gfx-labastilla/` |
 
 ### `carousel/` — gambar siap posting
 | Folder | Isi |
@@ -286,6 +287,46 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 - Kestabilan suhu & tekanan mesin komersial = **BUKTI SEDANG**, jangan sebut angka pasti
 
 ---
+
+### Kopi Terroir: Nicaragua La Bastilla Geisha Washed
+- Kebun **La Bastilla Coffee Estates**, Jinotega, ±20 km dari kota Jinotega, diapit cagar alam
+  **Cerro Datanlí–El Diablo**, dekat **Danau Apanás**. ±300 ha, cuma ±155 ha ditanami kopi.
+  Rainforest Alliance sejak 2003. Panen **Des–Mar**. Punya lab QC, mill & fasilitas ekspor sendiri
+- Cerita kuat: sekolah dasar 2003 (sekolah terdekat 6 km, mulai 2 guru → 200+ murid), naik jadi
+  **sekolah pertanian berasrama 2008**. Ada ecolodge & bio-digester
+- **Jinotega = ±80% produksi kopi nasional.** Karakter wilayah: cerah, floral, buah kuning —
+  **cocok persis** sama tasting note kemasan (yellow fruits, white florals)
+- Kartu skor kemasan: aroma 7 · sweetness 7 · flavour 6 · acidity 6 · **body 3** (disengaja, jangan
+  dianggap kelemahan). 1.300–1.500 mdpl = **sedang** buat Geisha, makanya profilnya tea-like bukan meledak
+- ⚠️ Skor **84** yang beredar itu buat lot La Bastilla washed LAIN, **bukan** lot Geisha ini. Jangan dipakai
+
+### Tiga koreksi di draf PDF Dustin (sudah dibenerin di docx)
+1. **Arah giling per proses kebalik.** Draf: natural halus, washed kasar. Patokan praktisi kebalikannya —
+   natural lebih KASAR (gampang larut), washed lebih HALUS (light roast & padat). Draf lamanya juga
+   bentrok sama poin ketinggiannya sendiri
+2. **Bloom kebalik.** Draf: kopi asam → bloom dikurangi biar manis. Ngurangin bloom = nurunin ekstraksi
+   = makin ASAM. Manis datang dari ekstraksi yang cukup
+3. **Level sangrai ga masuk daftar** padahal sinyal paling kuat. Sudah ditambah jadi Langkah 6
+
+### Rasio & Golden Cup — koreksi penting
+- **SCA Golden Cup: rasio 55 g/L (≈1:18), toleransi ±10% → ±1:16,5 s/d 1:20.** Suhu 93±3 °C (90–96)
+- **TDS 1,15–1,35%** (kekuatan) dan **extraction yield 18–22%** — DUA UKURAN BEDA, sering ketuker
+- **Rasio ga nentuin extraction, rasio nentuin kekuatan.** Extraction diatur gilingan/suhu/waktu/agitasi
+- **1:15 = 66,7 g/L → DI LUAR rentang SCA** (lebih pekat). 1:15 itu konvensi praktisi, bukan standar SCA.
+  Riset SCAE: orang Eropa suka lebih pekat, sampai ±1,45–1,50% TDS — dari sini asal angka 1,45 Dustin
+- ⚠️ **Jebakan nama "TDS":** TDS air (100–150 ppm, sebelum seduh) vs TDS seduhan (1,25% = 12.500 ppm).
+  Beda ±100×. Selalu sebut yang mana
+
+### Suhu ruangan / grinder & ukuran gilingan
+- **Uman dkk. (2016)**, *Scientific Reports* 6:24483 (co-author **Colonna-Dashwood**) — menggiling dingin
+  = sebaran partikel lebih seragam & ukuran rata-rata lebih kecil. Sebaran **tidak** dipengaruhi asal biji
+- Angkanya: −196 °C = 61 μm · −79 °C = 63 μm · −19 °C = 73 μm · 20 °C = 70 μm. ⚠️ Efek dramatisnya di suhu
+  kriogenik; antara freezer dan suhu ruang bedanya kecil dan **ga monoton**
+- **Barista Hustle** (Æ 2.03/2.04): kopi hangat lebih **liat**, pecah jadi lebih sedikit keping → **fines
+  lebih sedikit** → ekstraksi turun. Yang terdokumentasi itu **grinder panas karena dipakai terus** (ruang
+  giling 80–100 °C), **bukan** suhu ruangan
+- ⚠️ Digilingin lebih halus balikin **waktu alir**, TAPI **rasanya ga balik sama** — yang berubah sebarannya
+- Ada efek lawan: ruangan panas → dripper lebih hangat → ekstraksi naik. Sebagian saling meniadakan
 
 ## 7. Buku Rujukan
 
