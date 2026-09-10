@@ -138,6 +138,7 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `termal-mekanik/` | 11 slide — dua energi & satu kanvas |
 | `aroma-floral/` | 7 slide — cara nonjolin aroma floral |
 | `rasio-1-15/` | 8 slide — kenapa 1:15 dianggap golden ratio |
+| `cut-brew/` | 8 slide — teknik motong seduhan sebelum selesai |
 
 ---
 
@@ -332,6 +333,21 @@ menyebut versi lamanya. Koreksi cukup disampaikan ke Dustin lewat chat, atau dis
   penanda waktu "1:15" di resepnya). Selalu pakai 1:16,7
 - Asal-usul populernya 1:15: angkanya bulat & gampang diinget (15 g → 225 g), plus selera spesialti
   modern memang lebih pekat dari patokan lama. Bukan lahir dari riset
+
+### Cut brew
+- ⚠️ **"Cut brew" BUKAN istilah baku** di literatur kopi — ga ketemu di sumber Inggris maupun Indonesia.
+  Yang terdokumentasi itu prinsipnya (motong ekor ekstraksi) dan teknik sepupunya (**bypass**).
+  Karena itu carousel-nya wajib mendefinisikan istilahnya dulu di slide 2
+- **Urutan kelarutan** (BUKTI KUAT): awal = asam + aroma paling larut · tengah = gula, karamel,
+  melanoidin · akhir = senyawa pahit berat + fenolik yang bikin kering/astringen
+- ⚠️ **Anggapan "awal selalu bagus, akhir selalu jelek" itu penyederhanaan.** Sumber edukasi roaster
+  justru menyebut cangkir bagus butuh **lengkung penuh** — potong kepagian = asam dan tipis
+- **Bypass** = tambah air panas langsung ke cangkir setelah seduhan. Terdokumentasi, dipakai di
+  kompetisi, dan **sempat begitu dominan di World AeroPress Championship sampai akhirnya dilarang**
+- ⚠️ **JANGAN pakai angka "sweetness naik 22%, astringency turun 35%"** yang beredar di internet.
+  Ketemunya cuma di satu blog (Coffee On Cue) tanpa nama studi. Tidak terverifikasi
+- Sumber: Moroney dkk. (2015) · Wang & Lim (2021) · Gagné "The Four Rules of Optimal Coffee
+  Percolation" (Coffee ad Astra) · Barista Hustle IM 2.06 · Perfect Daily Grind (2024) soal bypass
 
 ### Suhu ruangan / grinder & ukuran gilingan
 - **Uman dkk. (2016)**, *Scientific Reports* 6:24483 (co-author **Colonna-Dashwood**) — menggiling dingin
