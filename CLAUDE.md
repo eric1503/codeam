@@ -138,7 +138,7 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `termal-mekanik/` | 11 slide — dua energi & satu kanvas |
 | `aroma-floral/` | 7 slide — cara nonjolin aroma floral |
 | `rasio-1-15/` | 8 slide — kenapa 1:15 dianggap golden ratio |
-| `cut-brew/` | 8 slide — teknik motong seduhan sebelum selesai |
+| `cut-brew/` | 7 slide — teknik motong seduhan sebelum selesai |
 
 ---
 
@@ -348,6 +348,9 @@ menyebut versi lamanya. Koreksi cukup disampaikan ke Dustin lewat chat, atau dis
   Ketemunya cuma di satu blog (Coffee On Cue) tanpa nama studi. Tidak terverifikasi
 - Sumber: Moroney dkk. (2015) · Wang & Lim (2021) · Gagné "The Four Rules of Optimal Coffee
   Percolation" (Coffee ad Astra) · Barista Hustle IM 2.06 · Perfect Daily Grind (2024) soal bypass
+- **Bahasa:** sebut cut brew sebagai **"teknik"**, jangan "alat". Permintaan Dustin
+- Slide "batas/yang perlu dijaga" sudah dihapus atas permintaan Dustin. Catatan soal potong kepagian
+  tetap berlaku sebagai pengetahuan internal, tapi jangan dibikin slide lagi
 
 ### Suhu ruangan / grinder & ukuran gilingan
 - **Uman dkk. (2016)**, *Scientific Reports* 6:24483 (co-author **Colonna-Dashwood**) — menggiling dingin
