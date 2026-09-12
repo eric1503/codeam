@@ -147,7 +147,8 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `rasio-1-15/` | 8 slide — kenapa 1:15 dianggap golden ratio |
 | `cut-brew/` | 7 slide — teknik motong seduhan sebelum selesai |
 | `grinding/` | 9 slide — **TANPA subtitle Inggris**, struktur **masalah-dulu** |
-| `perkolasi/` | 9 slide — perjalanan air lewat bubuk, struktur **masalah-dulu** |
+| `perkolasi/` | 9 slide — perjalanan air lewat bubuk, struktur **masalah-dulu**. ⚠️ Dustin bilang kurang suka |
+| `lewat-vs-rendam/` | 9 slide — percolation vs immersion, bahasa umum |
 
 ---
 
@@ -371,6 +372,23 @@ menyebut versi lamanya. Koreksi cukup disampaikan ke Dustin lewat chat, atau dis
   Artikelnya dipakai sebagai sumber, tapi **jangan sebut "rule nomor sekian bilang X"**
 - Sumber: Schmieder dkk. (2023) · Moroney dkk. (2015, Hukum Darcy) · Sano dkk. (2019) · Ahmed dkk. (2019) ·
   Gagné "The Four Rules of Optimal Coffee Percolation" (2021) & "Extraction Uniformity and Channeling" (2019)
+
+### Percolation vs Immersion (air lewat vs kopi direndam)
+- **Mekanisme intinya:** air lewat = tiap tetes masih **air bersih**, jadi selalu kuat narik rasa.
+  Direndam = airnya **ga ganti**, makin lama makin penuh, jadi makin males narik rasa baru
+- Rendaman **berhenti sendiri** (self-limiting) di sekitar **menit ke-4** — dasar kenapa dia lebih pemaaf.
+  Sumber: *Scientific Reports* (2021), model kesetimbangan untuk seduhan rendaman penuh
+- Rendaman: semua bubuk kerendam sama lama → **ga ada jalan pintas air**, aman buat gilingan ga rata.
+  Air lewat: lebih efisien narik rasa, tapi **ga ada rem** — kesalahan kecil langsung kerasa
+- ⚠️ **TEMUAN PALING KUAT & KONTRA-INTUITIF** — *Discrimination of Filter Coffee Extraction Methods*
+  (2023), **PMC10486461**: membandingkan V60, Aeropress, French Press, Pure Brew pakai satu kopi Kenya.
+  Hasilnya **mengelompok berdasarkan BAHAN SARINGAN, bukan cara nyeduh**. V60 (air lewat) dan Aeropress
+  (rendam) hasilnya mirip karena sama-sama kertas. Kertas → lebih banyak senyawa **karamel & bunga**;
+  saringan logam → lebih banyak senyawa **buah & sangrai**
+- Alat gabungan: **Hario Switch** (yang dipakai Dustin) dan **Clever Dripper** — rendam dulu, lalu
+  turunkan lewat kertas
+- Sumber: PMC10486461 (2023) · *Scientific Reports* (2021) · Moroney dkk. (2015) ·
+  Gagné "Why do Percolation and Immersion Coffee Taste so Different?" (2019) · Perfect Daily Grind
 
 ### Cut brew
 - ⚠️ **"Cut brew" BUKAN istilah baku** di literatur kopi — ga ketemu di sumber Inggris maupun Indonesia.
