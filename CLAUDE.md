@@ -75,6 +75,11 @@ Dose 15 g · suhu 92 °C · rasio 1:15 · open switch di 0:50 · close switch 1:
    carousel air atas permintaannya. Konten boleh berakhir di ringkasan atau sumber.
 8. **Format poin lebih disukai** daripada paragraf panjang — gaya catatan tulis tangannya:
    satu baris, satu fungsi.
+8a. **MULAI DARI MASALAH, BUKAN DARI ISTILAH.** Ini kritik langsung Dustin di carousel grinding versi
+   pertama: terlalu advanced, kurang "ngena". Pola yang dia mau — tiap slide dibuka dengan **keluhan
+   yang orang beneran rasain**, ditulis seperti kalimat mereka sendiri (pakai tanda kutip), BARU
+   dijelaskan penyebabnya. Jangan buka slide dengan nama konsep (bimodal, difusi, triboelektrifikasi).
+   Istilah teknis boleh ada, tapi taruh di daftar sumber, bukan di headline.
 8b. **JANGAN tulis koreksi di dalam materi jadi.** Kalau ada yang salah di draf Dustin, langsung tulis
    versi benarnya tanpa menyebut versi lama. Sampaikan koreksinya lewat chat saja. Alasannya: kalau
    koreksi muncul di dokumen, orang mengira Dustin yang kasih informasi salah.
@@ -141,7 +146,7 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `aroma-floral/` | 7 slide — cara nonjolin aroma floral |
 | `rasio-1-15/` | 8 slide — kenapa 1:15 dianggap golden ratio |
 | `cut-brew/` | 7 slide — teknik motong seduhan sebelum selesai |
-| `grinding/` | 9 slide — **TANPA subtitle Inggris** (permintaan Dustin) |
+| `grinding/` | 9 slide — **TANPA subtitle Inggris**, struktur **masalah-dulu** |
 
 ---
 
