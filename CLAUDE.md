@@ -103,6 +103,8 @@ Dose 15 g · suhu 92 °C · rasio 1:15 · open switch di 0:50 · close switch 1:
   Inggrisnya rebutan perhatian sama teks Indonesia.
 - Slide dengan **4 item atau lebih** otomatis pakai mode `dense` (font dikecilin) biar ga kepotong.
   Bisa juga dipaksa manual lewat flag `dense: true` di slide-nya
+- **Subtitle Inggris bisa dimatikan** — cukup jangan pass env `EN` ke `render.js`. Dustin minta ini
+  di carousel `grinding/`. Tanpa EN, ruang slide jadi jauh lebih lega (nol overflow)
 - **Palet hitam putih** tersedia lewat env `MONO=1` — aksen amber diganti putih, `h1` jadi 80% putih
   dengan `<em>` putih penuh sebagai penekanan. Dipakai di carousel paper-filter atas permintaan Dustin
 
@@ -139,6 +141,7 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `aroma-floral/` | 7 slide — cara nonjolin aroma floral |
 | `rasio-1-15/` | 8 slide — kenapa 1:15 dianggap golden ratio |
 | `cut-brew/` | 7 slide — teknik motong seduhan sebelum selesai |
+| `grinding/` | 9 slide — **TANPA subtitle Inggris** (permintaan Dustin) |
 
 ---
 
@@ -184,6 +187,16 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
   cenderung bermuatan positif, dark negatif
 - *Matter* (2020) "Systematically Improving Espresso" — ada **batas kehalusan**; lewat dari itu
   ekstraksi justru turun. Rekomendasi: kopi lebih sedikit, giling lebih kasar
+- **Bora dkk. (2026)**, *Journal of Food Process Engineering* — "Characterization of Bimodal Particle
+  Size Distribution of Ground Coffee Powder". Hampir semua sampel kopi menghasilkan sebaran **bimodal**
+  (dua puncak: fines + boulders). Di setelan paling halus, pecahnya fraksi kasar bikin sebaran bimodal
+  yang lemah dengan puncak fines yang menonjol
+- **Gagné, 300 PSD dari 24 grinder** (Coffee ad Astra, 2023): **burr flat menghasilkan ukuran partikel
+  lebih seragam** dibanding conical. PSD 10–1200+ mikron cocok dimodelkan dengan log-normal tiga komponen.
+  ⚠️ Nuansa penting: **cara burr memotong vs menggerus lebih menentukan bentuk sebaran** daripada sekadar
+  label flat/conical. Gagné juga bikin aplikasi pengukur PSD dari foto/scan
+- Conical = bimodal → body lebih tebal, clarity turun. Flat = unimodal → clarity naik, fines lebih sedikit
+  (level BUKTI SEDANG — sangat tergantung grinder & burr)
 
 ### Crema
 - Terbentuk dari CO₂ terlarut di 9 bar yang keluar dari larutan saat tekanan drop
