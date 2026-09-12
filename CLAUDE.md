@@ -147,6 +147,7 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `rasio-1-15/` | 8 slide — kenapa 1:15 dianggap golden ratio |
 | `cut-brew/` | 7 slide — teknik motong seduhan sebelum selesai |
 | `grinding/` | 9 slide — **TANPA subtitle Inggris**, struktur **masalah-dulu** |
+| `perkolasi/` | 9 slide — perjalanan air lewat bubuk, struktur **masalah-dulu** |
 
 ---
 
@@ -351,6 +352,25 @@ menyebut versi lamanya. Koreksi cukup disampaikan ke Dustin lewat chat, atau dis
   penanda waktu "1:15" di resepnya). Selalu pakai 1:16,7
 - Asal-usul populernya 1:15: angkanya bulat & gampang diinget (15 g → 225 g), plus selera spesialti
   modern memang lebih pekat dari patokan lama. Bukan lahir dari riset
+
+### Perkolasi (perjalanan air lewat bubuk)
+- **Jalan pintas air** (istilah teknisnya channeling) = penjelasan kenapa kopi bisa **asam DAN pahit
+  barengan**. Jalur yang dilewati terus-terusan jadi kelewat (pahit), bubuk yang cuma kena sedikit air
+  jadi kurang (asam). Dua-duanya ketumpuk di satu cangkir. Ini sudut paling relatable buat konten
+- Bubuk dengan ukuran campur aduk (banyak halus + banyak kasar) **lebih gampang bikin jalan pintas**
+  dibanding bubuk yang seragam
+- ⚠️ **KONTRA-INTUITIF & kuat buat konten:** menurut Gagné, **aliran yang terlalu lambat justru bikin
+  air lebih susah nyebar rata** di dalam bubuk. Jadi "nuang selambat mungkin" bukan otomatis lebih baik
+- Menurut Gagné juga: seduhan sebaiknya baru benar-benar mulai **setelah seluruh bubuk basah merata**;
+  dan pakai gilingan dengan sebaran ukuran yang lebih seragam
+- **Bypass** (definisi Gagné): air yang berhasil lewat mengitari bubuk dan **ga ikut mengekstrak**
+- **Schmieder dkk. (2023)**, *Foods* 12(15):2871 — **kecepatan alir = variabel PALING dominan**
+- Bubuk nempel kering di dinding kertas = bubuk yang ga pernah kena air. Perbaikan gratis: putar pelan
+  dripper setelah tuangan terakhir
+- ⚠️ Aku **belum berhasil memverifikasi isi keempat "Four Rules"** Gagné satu per satu lewat pencarian.
+  Artikelnya dipakai sebagai sumber, tapi **jangan sebut "rule nomor sekian bilang X"**
+- Sumber: Schmieder dkk. (2023) · Moroney dkk. (2015, Hukum Darcy) · Sano dkk. (2019) · Ahmed dkk. (2019) ·
+  Gagné "The Four Rules of Optimal Coffee Percolation" (2021) & "Extraction Uniformity and Channeling" (2019)
 
 ### Cut brew
 - ⚠️ **"Cut brew" BUKAN istilah baku** di literatur kopi — ga ketemu di sumber Inggris maupun Indonesia.
