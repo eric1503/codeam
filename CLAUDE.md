@@ -75,7 +75,14 @@ Dose 15 g · suhu 92 °C · rasio 1:15 · open switch di 0:50 · close switch 1:
    carousel air atas permintaannya. Konten boleh berakhir di ringkasan atau sumber.
 8. **Format poin lebih disukai** daripada paragraf panjang — gaya catatan tulis tangannya:
    satu baris, satu fungsi.
-8a. **MULAI DARI MASALAH, BUKAN DARI ISTILAH.** Ini kritik langsung Dustin di carousel grinding versi
+8z. ⚠️ **JANGAN BERTELE-TELE — INI KRITIK TERBARU DUSTIN.** Dua carousel ditolak karena bahasanya
+   muter-muter: "walaupun general, orang jadi ga tau kita ngomongin apa." Yang dia mau:
+   **kalimat pendek, satu kalimat satu kerjaan, dan PAKAI ISTILAH ASLINYA** (immersion, percolation,
+   cone, flat bottom, bed depth) — cukup dijelaskan sekali di awal, jangan diganti padanan kampung
+   seperti "air lewat" atau "kopi direndam". Menghindari istilah justru bikin kabur, bukan jelas.
+   Buang juga sisipan ngobrol seperti "Ini yang paling sering bikin bingung" atau "Makanya bingung".
+8a. **MULAI DARI MASALAH, BUKAN DARI ISTILAH** (tetap berlaku, TAPI jangan sampai jadi bertele-tele
+   — gabungkan dengan aturan 8z: buka dengan masalah, lalu langsung sebut istilahnya). Ini kritik langsung Dustin di carousel grinding versi
    pertama: terlalu advanced, kurang "ngena". Pola yang dia mau — tiap slide dibuka dengan **keluhan
    yang orang beneran rasain**, ditulis seperti kalimat mereka sendiri (pakai tanda kutip), BARU
    dijelaskan penyebabnya. Jangan buka slide dengan nama konsep (bimodal, difusi, triboelektrifikasi).
@@ -148,7 +155,9 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `cut-brew/` | 7 slide — teknik motong seduhan sebelum selesai |
 | `grinding/` | 9 slide — **TANPA subtitle Inggris**, struktur **masalah-dulu** |
 | `perkolasi/` | 9 slide — perjalanan air lewat bubuk, struktur **masalah-dulu**. ⚠️ Dustin bilang kurang suka |
-| `lewat-vs-rendam/` | 9 slide — percolation vs immersion, bahasa umum |
+| `lewat-vs-rendam/` | 9 slide — ⚠️ versi lama, bahasanya ditolak Dustin (bertele-tele) |
+| `immersion-vs-percolation/` | 9 slide — versi yang dipakai, gaya ringkas |
+| `cone-vs-flatbottom/` | 9 slide — cone vs flat bottom dripper |
 
 ---
 
