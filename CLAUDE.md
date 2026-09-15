@@ -140,6 +140,20 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `MOFU - Termal vs Mekanik.docx` | Kerangka dua energi dari sketsa Dustin — suhu (termal) vs flow/agitasi (mekanik), struktur (grind size) sbg kanvas |
 | `SCRIPT - Nicaragua La Bastilla Geisha Washed.docx` | **Link sumber penuh & klikabel di akhir tiap kalimat** + 6 grafis tertanam (grafisnya di `assets/gfx-labastilla/`). Bagian resep sengaja dikosongkan — Dustin isi sendiri |
 
+### `blog/` — artikel untuk website terroiridn.com
+| File | Isi |
+|---|---|
+| `BLOG - Washed vs Natural.docx` + `.html` | Artikel ±1.950 kata, 24 tautan sumber. Dibuat **dua format**: docx buat diedit, HTML buat langsung di-paste ke CMS |
+
+**Konvensi artikel blog** (mulai dipakai sejak artikel pertama):
+- **Selalu dua format** — `.docx` (edit) dan `.html` (paste ke CMS). HTML pakai markup semantik bersih:
+  `<h2>/<h3>`, `<table>`, `<blockquote>`, `<a target="_blank" rel="noopener">`. Tanpa CSS inline
+- Panjang target: **1.500–2.500 kata**
+- Wajib ada bagian **"Catatan Jujur tentang Kekuatan Bukti"** — tabel klaim → level bukti. Ini pembeda
+  Terroir dari blog kopi lain, dan konsisten sama aturan 5 & 6
+- Tautan sumber ditaruh **inline di akhir kalimat** (aturan 8c) DAN direkap di daftar sumber akhir
+- Ditutup dengan baris `Ditulis untuk Terroir IDN · terroiridn.com`
+
 ### `carousel/` — gambar siap posting
 | Folder | Isi |
 |---|---|
