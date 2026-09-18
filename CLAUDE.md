@@ -151,6 +151,16 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `gfx-labastilla/` | 6 grafis untuk script Nicaragua La Bastilla |
 | `gfx-tuangan/` | 4 grafis tinggi tuangan: `gfx-tinggi-tuangan` (tiga tinggi berdampingan) · `gfx-avalanche` (siklus 4 langkah) · `gfx-panjang-pecah` (breakup length) · `gfx-peta-tuangan` (tabel kapan turun/naik) |
 
+### `cv/` — materi profil untuk CV Dustin
+| File | Isi |
+|---|---|
+| `CV - Dustin Wijaya Profile Summary (EN).docx` | Ringkasan profil **bahasa Inggris** siap tempel ke CV: professional profile, subject expertise, editorial standard, content system, source literacy, selected work, plus bullet siap pakai. Grafisnya `assets/gfx-profile-dustin.png` |
+
+⚠️ **Yang SENGAJA dikosongkan** karena tidak ada di catatan — jangan diisi tebak-tebakan: jabatan & masa kerja
+di Terroir IDN · pendidikan · sertifikasi (Q Grader/SCA) · angka follower & engagement · riwayat kompetisi ·
+pengalaman kerja sebelumnya. Juga belum jelas: **handle Instagram mana yang aktif** (`@Dustin_wijaya04` dipakai
+di semua carousel, tapi Dustin pernah kasih link `instagram.com/dustinwijaya_`).
+
 ### `blog/` — artikel untuk website terroiridn.com
 | File | Isi |
 |---|---|
