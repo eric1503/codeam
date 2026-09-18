@@ -154,21 +154,39 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 ### `cv/` — materi lamaran kerja Dustin
 | File | Isi |
 |---|---|
-| `Resume - Dustin Wijaya (EN).docx` | Resume bahasa Inggris, format mengikuti contoh resume temannya (Josua): nama besar, subjudul jabatan, baris kontak, lalu SUMMARY · EXPERIENCE · SKILLS · EDUCATION · CERTIFICATIONS. Tanggal rata kanan pakai tab stop |
+| `Resume - Dustin Wijaya (EN).docx` | Resume bahasa Inggris, format mengikuti contoh resume temannya (Josua): nama besar, subjudul jabatan, baris kontak, lalu SUMMARY · EXPERIENCE · EDUCATION · SKILLS. Tanggal rata kanan pakai tab stop |
 
-⚠️ **JANGAN SEBUT TERROIR IDN DI MATERI CV.** Permintaan langsung Dustin — dia juga pernah kerja di bidang
-lain dan tidak mau pengalamannya dikaitkan ke Terroir. Pengalaman kopi ditulis sebagai **Independent**.
-Berlaku juga untuk `assets/gfx-profile-dustin.png`.
+⚠️ **KOREKSI aturan sebelumnya soal Terroir.** Sempat dicatat "jangan sebut Terroir di CV" — itu salah tangkap.
+Maksud Dustin: **jangan tulis dia sebagai KARYAWAN Terroir**, karena dia **FOUNDER**-nya. Nama PT resmi:
+**PT Terroir Origin Indonesia**. Di resume ditulis sebagai `Founder — PT Terroir Origin Indonesia (Terroir IDN)`.
 
-**LinkedIn Dustin:** https://www.linkedin.com/in/dustin-wijaya-924710216/
-⚠️ **Tidak bisa dibaca dari environment ini** — proxy menolak LinkedIn (CONNECT tunnel 403) dan profil
-LinkedIn tidak terindeks di WebSearch karena butuh login. Kalau butuh isi pengalamannya, **minta Dustin
-copy-paste**. Jangan mengarang isi profilnya.
+### Data profesional Dustin (dari LinkedIn, dikirim sendiri olehnya)
+- **Nama publik:** Dustin Wijaya · **pronoun: He/Him** · **West Jakarta, Jakarta, Indonesia**
+- **LinkedIn:** https://www.linkedin.com/in/dustin-wijaya-924710216/ (104 followers, 70 connections)
+- **Pendidikan:** Bunda Mulia University — Bachelor's degree, Business/Management/Marketing, **2021–2024**
+- **Riwayat kerja:**
+  | Posisi | Tempat | Periode |
+  |---|---|---|
+  | Founder | PT Terroir Origin Indonesia | tanggal mulai **belum diketahui** |
+  | Content Creator | Self-employed, remote | Jan 2022 – sekarang |
+  | Full-time Trader | Self-employed, remote | Feb 2018 – sekarang |
+  | Digital Marketing Specialist | Freelance, on-site | Jan 2023 – Sep 2023 |
+  | Assistant Vice President | PT Sahabat Maju Jaya, Jakarta | Jun 2022 – Jan 2023 |
+  | Financial Services Consultant | PT Kontak Perkasa Futures | Mar 2022 – Jun 2022 |
+- **Latar belakang analitis:** pasar finansial (equities, commodities, currencies, derivatives), analisis teknikal
+  & fundamental. Ini penting — jadi bahan framing "kebiasaan cek sumber primer" di resume
+- ⚠️ **LinkedIn TIDAK BISA dibaca dari environment ini** (proxy 403, profil butuh login). Kalau butuh isinya,
+  minta Dustin screenshot atau copy-paste. Jangan mengarang
 
-⚠️ **Yang masih kosong di resume** (sengaja dibiarkan placeholder, jangan diisi tebakan): nomor telepon ·
-kota · pengalaman kerja non-kopi (2 blok placeholder) · pendidikan · sertifikasi · tanggal mulai pekerjaan
-konten. Juga belum jelas **handle Instagram mana yang aktif** (`@Dustin_wijaya04` dipakai di semua carousel,
-tapi Dustin pernah kasih link `instagram.com/dustinwijaya_`).
+⚠️ **Yang masih placeholder di resume:** nomor telepon · tanggal mulai jadi Founder · bullet tambahan untuk
+Trader · daftar software. Juga belum jelas **handle Instagram mana yang aktif** (`@Dustin_wijaya04` dipakai
+di semua carousel, tapi Dustin pernah kasih link `instagram.com/dustinwijaya_`).
+
+### Tiga hal di LinkedIn Dustin yang perlu dia perbaiki (disampaikan lewat chat, jangan ditulis di materi)
+1. Headline masih **"Student at Bunda Mulia University"** padahal pendidikannya selesai 2024 dan dia sudah founder
+2. Bagian **About** memposisikan dirinya sebagai "finance student", tidak menyebut sama sekali bahwa dia founder
+3. Ada typo **"Assitant Vice President"** (seharusnya "Assistant"), dan About menyebut jurusan **Finance**
+   sedangkan bagian Education menulis **Business/Management/Marketing**
 
 ### `blog/` — artikel untuk website terroiridn.com
 | File | Isi |
