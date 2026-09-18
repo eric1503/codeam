@@ -151,15 +151,24 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `gfx-labastilla/` | 6 grafis untuk script Nicaragua La Bastilla |
 | `gfx-tuangan/` | 4 grafis tinggi tuangan: `gfx-tinggi-tuangan` (tiga tinggi berdampingan) · `gfx-avalanche` (siklus 4 langkah) · `gfx-panjang-pecah` (breakup length) · `gfx-peta-tuangan` (tabel kapan turun/naik) |
 
-### `cv/` — materi profil untuk CV Dustin
+### `cv/` — materi lamaran kerja Dustin
 | File | Isi |
 |---|---|
-| `CV - Dustin Wijaya Profile Summary (EN).docx` | Ringkasan profil **bahasa Inggris** siap tempel ke CV: professional profile, subject expertise, editorial standard, content system, source literacy, selected work, plus bullet siap pakai. Grafisnya `assets/gfx-profile-dustin.png` |
+| `Resume - Dustin Wijaya (EN).docx` | Resume bahasa Inggris, format mengikuti contoh resume temannya (Josua): nama besar, subjudul jabatan, baris kontak, lalu SUMMARY · EXPERIENCE · SKILLS · EDUCATION · CERTIFICATIONS. Tanggal rata kanan pakai tab stop |
 
-⚠️ **Yang SENGAJA dikosongkan** karena tidak ada di catatan — jangan diisi tebak-tebakan: jabatan & masa kerja
-di Terroir IDN · pendidikan · sertifikasi (Q Grader/SCA) · angka follower & engagement · riwayat kompetisi ·
-pengalaman kerja sebelumnya. Juga belum jelas: **handle Instagram mana yang aktif** (`@Dustin_wijaya04` dipakai
-di semua carousel, tapi Dustin pernah kasih link `instagram.com/dustinwijaya_`).
+⚠️ **JANGAN SEBUT TERROIR IDN DI MATERI CV.** Permintaan langsung Dustin — dia juga pernah kerja di bidang
+lain dan tidak mau pengalamannya dikaitkan ke Terroir. Pengalaman kopi ditulis sebagai **Independent**.
+Berlaku juga untuk `assets/gfx-profile-dustin.png`.
+
+**LinkedIn Dustin:** https://www.linkedin.com/in/dustin-wijaya-924710216/
+⚠️ **Tidak bisa dibaca dari environment ini** — proxy menolak LinkedIn (CONNECT tunnel 403) dan profil
+LinkedIn tidak terindeks di WebSearch karena butuh login. Kalau butuh isi pengalamannya, **minta Dustin
+copy-paste**. Jangan mengarang isi profilnya.
+
+⚠️ **Yang masih kosong di resume** (sengaja dibiarkan placeholder, jangan diisi tebakan): nomor telepon ·
+kota · pengalaman kerja non-kopi (2 blok placeholder) · pendidikan · sertifikasi · tanggal mulai pekerjaan
+konten. Juga belum jelas **handle Instagram mana yang aktif** (`@Dustin_wijaya04` dipakai di semua carousel,
+tapi Dustin pernah kasih link `instagram.com/dustinwijaya_`).
 
 ### `blog/` — artikel untuk website terroiridn.com
 | File | Isi |
