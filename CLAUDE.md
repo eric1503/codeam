@@ -156,6 +156,11 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 |---|---|
 | `Resume - Dustin Wijaya (EN).docx` | Resume bahasa Inggris, format mengikuti contoh resume temannya (Josua): nama besar, subjudul jabatan, baris kontak, lalu SUMMARY · EXPERIENCE · EDUCATION · SKILLS. Tanggal rata kanan pakai tab stop |
 
+**Subjudul resume:** `Founder & Marketing Lead`. **Dustin pegang marketing sendiri** — brand positioning,
+channel strategy, campaign planning, dan performance review lintas IG/TikTok/YouTube. Blok Founder ditulis
+sebagai job desc founder (dirikan perusahaan, positioning, marketing, operasi konten, arahkan editor lepas,
+program konten acara in-store & guest barista takeover), bukan cuma daftar kerjaan konten.
+
 ⚠️ **KOREKSI aturan sebelumnya soal Terroir.** Sempat dicatat "jangan sebut Terroir di CV" — itu salah tangkap.
 Maksud Dustin: **jangan tulis dia sebagai KARYAWAN Terroir**, karena dia **FOUNDER**-nya. Nama PT resmi:
 **PT Terroir Origin Indonesia**. Di resume ditulis sebagai `Founder — PT Terroir Origin Indonesia (Terroir IDN)`.
