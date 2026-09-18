@@ -172,6 +172,7 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `lewat-vs-rendam/` | 9 slide — ⚠️ versi lama, bahasanya ditolak Dustin (bertele-tele) |
 | `immersion-vs-percolation/` | 9 slide — versi yang dipakai, gaya ringkas |
 | `cone-vs-flatbottom/` | 9 slide — cone vs flat bottom dripper |
+| `dilute-bypass/` | 8 slide — kenapa kopi perlu di-dilute (bypass). **Dikirim sebagai PNG transparan** atas permintaan Dustin |
 
 ---
 
@@ -421,8 +422,9 @@ menyebut versi lamanya. Koreksi cukup disampaikan ke Dustin lewat chat, atau dis
   melanoidin · akhir = senyawa pahit berat + fenolik yang bikin kering/astringen
 - ⚠️ **Anggapan "awal selalu bagus, akhir selalu jelek" itu penyederhanaan.** Sumber edukasi roaster
   justru menyebut cangkir bagus butuh **lengkung penuh** — potong kepagian = asam dan tipis
-- **Bypass** = tambah air panas langsung ke cangkir setelah seduhan. Terdokumentasi, dipakai di
-  kompetisi, dan **sempat begitu dominan di World AeroPress Championship sampai akhirnya dilarang**
+- **Bypass** = tambah air panas langsung ke cangkir setelah seduhan. Terdokumentasi dan dipakai di
+  kompetisi. ⚠️ **Tidak pernah dilarang** di World AeroPress Championship — yang dibatasi itu **dose, maks
+  18 g sejak 2021**, sehingga bypass jadi tidak sedominan dulu. Lihat bagian "Dilute / bypass" di bawah
 - ⚠️ **JANGAN pakai angka "sweetness naik 22%, astringency turun 35%"** yang beredar di internet.
   Ketemunya cuma di satu blog (Coffee On Cue) tanpa nama studi. Tidak terverifikasi
 - Sumber: Moroney dkk. (2015) · Wang & Lim (2021) · Gagné "The Four Rules of Optimal Coffee
@@ -441,6 +443,30 @@ menyebut versi lamanya. Koreksi cukup disampaikan ke Dustin lewat chat, atau dis
   giling 80–100 °C), **bukan** suhu ruangan
 - ⚠️ Digilingin lebih halus balikin **waktu alir**, TAPI **rasanya ga balik sama** — yang berubah sebarannya
 - Ada efek lawan: ruangan panas → dripper lebih hangat → ekstraksi naik. Sebagian saling meniadakan
+
+### Dilute / bypass (kenapa kopi perlu diencerkan)
+- **Bypass** = menambahkan air panas langsung ke cangkir setelah seduhan jadi. Yang turun cuma **TDS**
+  (kepekatan). **Extraction yield tidak berubah sama sekali** — ini pembeda utamanya, dan paling sering ketuker
+- ⚠️ **KOREKSI catatan lama di file ini:** bypass **TIDAK PERNAH dilarang** di World AeroPress Championship.
+  Yang terjadi: sejak **2021 dose dibatasi 18 g** (sebelumnya praktis tanpa batas, peserta sampai 30–40 g lalu
+  diencerkan). Pembatasan dose bikin bypass tidak lagi sedominan dulu, tapi **tekniknya tetap boleh** dan air
+  bypass boleh suhu berapa saja. Sumber: Perfect Daily Grind. Jangan pakai framing "sampai akhirnya dilarang"
+- ⚠️ **TEMUAN PALING KUAT buat konten dilute** — **Batali dkk. (2020)**, *Journal of the Science of Food and
+  Agriculture*, "Sensory and monosaccharide analysis of drip brew coffee fractions versus brewing time"
+  (DOI 10.1002/jsfa.10323). Atribut **pahit, asam, dan smoky berkorelasi POSITIF dengan TDS**; atribut
+  **manis, fruity, dan floral berkorelasi NEGATIF**. Jadi menurunkan TDS benar-benar menggeser arah rasa,
+  bukan sekadar bikin hambar. **BUKTI KUAT**
+- **Cotter dkk. (2021)**, *J. Food Science* 86(1):194–205, DOI 10.1111/1750-3841.15561 — 118 konsumen,
+  27 kopi, **3.186 cicipan**. Preferensi tersebar di rentang TDS dan extraction yield yang luas, bukan satu
+  titik. Kopi medium roast washed Honduras, air sesuai anjuran SCA, brewer Curtis ThermoPro, suhu 87/90/93 °C
+- **Guinard dkk. (2023)**, *J. Food Science* 88:2168–2177, DOI 10.1111/1750-3841.16531 — Brewing Control Chart
+  baru dari UC Davis Coffee Center; **brew ratio jadi sumbu tersendiri** di samping TDS dan extraction yield
+- **Frost dkk. (2020)**, *J. Food Science*, DOI 10.1111/1750-3841.15326 — "Effects of brew strength, brew yield,
+  and roast on the sensory quality of drip brewed coffee"
+- **Framing wajib:** bypass memperbaiki **kepekatan**, bukan kesalahan ekstraksi. Kalau kopinya pahit + seret
+  (astringen), itu over-extraction — bypass cuma bikin pahitnya jadi encer. Benerin gilingan/suhu/waktu dulu
+- Cara praktis yang dipakai di carousel: sisihkan air panas bersuhu sama → tambah **10% dari volume seduhan** →
+  cicipi → ulangi. Kalau selalu mentok di 20%, seduh berikutnya langsung pakai rasio lebih encer
 
 ## 7. Buku Rujukan
 
