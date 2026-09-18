@@ -183,8 +183,12 @@ Maksud Dustin: **jangan tulis dia sebagai KARYAWAN Terroir**, karena dia **FOUND
 - ⚠️ **LinkedIn TIDAK BISA dibaca dari environment ini** (proxy 403, profil butuh login). Kalau butuh isinya,
   minta Dustin screenshot atau copy-paste. Jangan mengarang
 
-⚠️ **Yang masih placeholder di resume:** nomor telepon · tanggal mulai jadi Founder · bullet tambahan untuk
-Trader · daftar software. Juga belum jelas **handle Instagram mana yang aktif** (`@Dustin_wijaya04` dipakai
+**Semua posisi sudah punya job desc penuh** (5–9 bullet per posisi). Bullet untuk Trader, Digital Marketing
+Specialist, Assistant Vice President, dan Financial Services Consultant ditulis sebagai **deskripsi kerja
+umum untuk peran tersebut**, bukan dari catatan cara kerja Dustin — sudah diberitahu ke dia lewat chat supaya
+dicek dan dihapus yang tidak sesuai.
+
+⚠️ **Yang masih placeholder di resume:** nomor telepon · tanggal mulai jadi Founder · daftar software. Juga belum jelas **handle Instagram mana yang aktif** (`@Dustin_wijaya04` dipakai
 di semua carousel, tapi Dustin pernah kasih link `instagram.com/dustinwijaya_`).
 
 ### Tiga hal di LinkedIn Dustin yang perlu dia perbaiki (disampaikan lewat chat, jangan ditulis di materi)
