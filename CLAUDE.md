@@ -92,6 +92,11 @@ Dose 15 g · suhu 92 °C · rasio 1:15 · open switch di 0:50 · close switch 1:
    koreksi muncul di dokumen, orang mengira Dustin yang kasih informasi salah.
 8c. **Cantumkan link sumber penuh dan klikabel di akhir tiap kalimat** — bukan cuma nomor `[n]`.
    Tiap gambar juga dikasih link sumbernya.
+8d. ⚠️ **SELALU SERTAKAN GAMBAR ILUSTRASI** (permintaan Dustin, berlaku mulai sekarang untuk SEMUA
+   penjelasan — bukan cuma carousel dan script). Kalau dia nanya sesuatu dan jawabannya panjang,
+   jawaban teks saja tidak cukup: bikinkan grafis penjelas. Formatnya sama seperti `assets/gfx-*/` —
+   1920×1080, dirender 2× (3840×2160), palet gelap yang sama dengan carousel, dan **baris sumber di
+   bagian bawah tiap gambar**. Alasannya: "supaya gampang ngerti".
 9. **Jangan bikin klaim yang bisa menyinggung kelompok manapun.** Dustin sudah minta satu slide
    dihapus karena membandingkan robusta dengan arabika — Indonesia produsen robusta besar, dan
    itu bisa menyinggung petani serta pelaku industri. Sebelum menulis perbandingan, tanya:
@@ -139,6 +144,12 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `MOFU - PPM Air untuk Filter Coffee.docx` | Sweet spot 100–150 ppm buat filter coffee (SCA ideal 150, rentang 75–250) |
 | `MOFU - Termal vs Mekanik.docx` | Kerangka dua energi dari sketsa Dustin — suhu (termal) vs flow/agitasi (mekanik), struktur (grind size) sbg kanvas |
 | `SCRIPT - Nicaragua La Bastilla Geisha Washed.docx` | **Link sumber penuh & klikabel di akhir tiap kalimat** + 6 grafis tertanam (grafisnya di `assets/gfx-labastilla/`). Bagian resep sengaja dikosongkan — Dustin isi sendiri |
+
+### `assets/` — grafis penjelas (1920×1080, render 2×)
+| Folder | Isi |
+|---|---|
+| `gfx-labastilla/` | 6 grafis untuk script Nicaragua La Bastilla |
+| `gfx-tuangan/` | 4 grafis tinggi tuangan: `gfx-tinggi-tuangan` (tiga tinggi berdampingan) · `gfx-avalanche` (siklus 4 langkah) · `gfx-panjang-pecah` (breakup length) · `gfx-peta-tuangan` (tabel kapan turun/naik) |
 
 ### `blog/` — artikel untuk website terroiridn.com
 | File | Isi |
@@ -467,6 +478,36 @@ menyebut versi lamanya. Koreksi cukup disampaikan ke Dustin lewat chat, atau dis
   (astringen), itu over-extraction — bypass cuma bikin pahitnya jadi encer. Benerin gilingan/suhu/waktu dulu
 - Cara praktis yang dipakai di carousel: sisihkan air panas bersuhu sama → tambah **10% dari volume seduhan** →
   cicipi → ulangi. Kalau selalu mentok di 20%, seduh berikutnya langsung pakai rasio lebih encer
+
+### Tinggi tuangan (pour height) — rendah vs tinggi
+- ⚠️ **TEMUAN TERBARU & PALING PENTING — Park, Young & Mathijssen (2025)**, *Physics of Fluids* 37(4):043332,
+  DOI **10.1063/5.0257924**, "Pour-over coffee: Mixing by a water jet impinging on a granular bed with avalanche
+  dynamics" (UPenn). Ini **riset peer-review pertama yang khusus menguji tinggi tuangan**. Mereka merekam bagian
+  dalam bed dengan kamera cepat
+- **Mekanisme avalanche** (baru, belum pernah dideskripsikan sebelumnya): jet menggali kawah → bubuk menumpuk di
+  dinding kawah → lereng runtuh balik ke tengah → siklus berulang selama menuang. Ini yang bikin pencampuran merata
+- **Kesimpulan mereka: tuang setinggi mungkin SELAMA jet masih laminar/utuh.** Praktisnya **20–30 cm**. Hasilnya:
+  kopi lebih kuat dengan **bubuk lebih sedikit** — itu framing yang mereka pakai di rilisnya
+- **Jet tebal dari gooseneck standar justru ideal** — cukup tebal untuk bertahan utuh sampai ketinggian itu
+- ⚠️ **Jadi hipotesis "tinggi = agitasi tidak terkontrol" itu SETENGAH BENAR.** Yang bikin agitasi kacau bukan
+  tingginya, tapi **jet yang sudah pecah jadi tetesan**. Selama jetnya masih utuh, tinggi justru menaikkan
+  pencampuran secara teratur, bukan acak
+- **Panjang pecah (breakup length)** — **Gagné, "The Physics of Kettle Streams"**, Coffee ad Astra (23 Mei 2020).
+  Ketidakstabilan **Plateau–Rayleigh**: tegangan permukaan bikin aliran makin berombak lalu putus jadi tetesan.
+  Panjang pecah dipengaruhi **laju tuang** (makin deras makin jauh) dan **kehalusan ujung gooseneck**
+- **Barista Hustle P 1.06 "The Mechanics of Pouring"** — sampai pada kesimpulan yang sama dari arah lain:
+  jarak tuang ideal **tepat di bawah panjang pecah**. Kalau terlalu tinggi, tetesan menyeret gelembung udara,
+  lapisan busa menahan air turun, dan **turbulensi malah tidak sampai ke dalam bed**. Menuang dekat permukaan
+  = turbulensi paling rendah
+- **Sisi negatif tuangan tinggi** (uji praktisi, BUKTI SEDANG): air berkecepatan tinggi di satu titik bikin
+  **kawah**, dan air berikutnya mengikuti jalur itu → channeling. Gagné, "Extraction Uniformity and Channeling" (2019)
+- **Suhu:** air memang turun suhunya selama melayang, tapi **tidak ada angka terukur per ketinggian** yang ketemu.
+  Yang terdokumentasi cuma penurunan suhu sepanjang total waktu seduh (±203 °F di awal → ±195 °F di akhir seduhan
+  3 menit, catatan praktisi). ⚠️ **Jangan sebut angka penurunan suhu per tinggi tuangan** — belum ada datanya
+- ⚠️ **Catatan soal Ahmed dkk. (2019)** yang dipakai di kerangka Termal vs Mekanik: studi itu **cold brew**, bukan
+  pour-over. Tetap sah sebagai bukti bahwa agitasi menaikkan padatan terlarut, tapi jangan dikutip seolah-olah
+  itu riset pour-over
+- **Grafis:** `assets/gfx-tuangan/` — 4 gambar, lihat tabel `assets/` di atas
 
 ## 7. Buku Rujukan
 
