@@ -156,7 +156,8 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | File | Isi |
 |---|---|
 | `Resume - Dustin Wijaya (EN).docx` | Resume bahasa Inggris, format mengikuti contoh resume temannya (Josua): nama besar, subjudul jabatan, baris kontak, lalu SUMMARY · EXPERIENCE · EDUCATION · SKILLS. Tanggal rata kanan pakai tab stop |
-| `Cover Letter - Dustin Wijaya (EN).docx` | Surat lamaran **ATS-safe**: satu kolom, rata kiri, tanpa tabel/kotak teks/gambar/header-footer, kontak sebagai teks biasa. Slot `[Job Title]`, `[Company Name]`, `[Hiring Manager Name]`, `[Date]`, dan satu paragraf "kenapa perusahaan ini" sengaja dikosongkan — **Dustin isi sendiri per lamaran** |
+| `Dustin Wijaya - Cover Letter - Trulieve.docx` | Surat lamaran untuk **Trulieve — Ecommerce & Mobile App Content Specialist (21232)**, Tallahassee FL. Sudah disesuaikan ke iklan lowongannya |
+| `Cover Letter - Dustin Wijaya (EN).docx` | Template kosong, surat lamaran **ATS-safe**: satu kolom, rata kiri, tanpa tabel/kotak teks/gambar/header-footer, kontak sebagai teks biasa. Slot `[Job Title]`, `[Company Name]`, `[Hiring Manager Name]`, `[Date]`, dan satu paragraf "kenapa perusahaan ini" sengaja dikosongkan — **Dustin isi sendiri per lamaran** |
 
 **Gaya surat lamaran — permintaan Dustin: "ATS dan tidak AI banget".** Yang dipakai: buka dengan angka konkret
 (bukan "I am writing to express my interest"), kalimat panjang-pendek campur, kata kerja biasa, ada sudut pandang
@@ -168,6 +169,20 @@ bikin kesaring · tanda tulisan AI).
 Producer", atau "Established the company"** di materi lamaran. Alasannya: **posisi yang dia lamar itu
 marketing dan content editing**, jadi jabatannya diselaraskan ke arah kreatif, bukan kepemilikan.
 Periode: **Desember 2024 – sekarang**. Subjudul resume: `Creative Director & Marketing Lead`.
+
+### Lamaran yang sedang jalan — Trulieve
+- **Posisi:** Ecommerce & Mobile App Content Specialist, requisition **21232**
+- **Perusahaan:** Trulieve Cannabis Corp — peritel kanabis terbesar di AS, vertically integrated, 9 negara bagian,
+  kantor pusat **Tallahassee, Florida**. Fokus 2026 mereka: retensi pelanggan, pengalaman pelanggan, loyalitas
+  merek, ekspansi gerai, investasi teknologi
+- **Isi peran:** individual contributor. Kelola konten aplikasi & website, jaga akurasi dan konsistensi, QA testing,
+  dukung peluncuran fitur, terapkan praktik UX mobile-first, cari peluang optimasi dari data perilaku pengguna.
+  Kerja lintas tim: digital marketing, e-commerce, product, creative
+- **Sudut yang dipakai di surat:** standar bukti tiga tingkat dia = proses QA konten · cadence terbitan mingguan +
+  review dashboard = content ops · desain 4:5 & templat 148 aset = mobile-first + konsistensi · SEO/meta tag dari
+  peran Digital Marketing Specialist = sisi website · menulis untuk orang yang belum punya kosakata kategorinya
+- ⚠️ **Masalah lokasi belum selesai:** Dustin di Indonesia, lowongannya Tallahassee. Di surat ada slot opsional
+  soal relokasi yang harus dia putuskan sendiri. Sudah disampaikan lewat chat
 
 ### Data profesional Dustin
 - **Nama publik:** Dustin Wijaya · **pronoun: He/Him** · **Indonesia** (LinkedIn: West Jakarta)
