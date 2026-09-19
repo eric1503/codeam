@@ -167,6 +167,11 @@ Periode: **Desember 2024 – sekarang**. Subjudul resume: `Creative Director & M
 - **Email lamaran:** `Dustinwijaya04@gmail.com` — **bukan** `ericangelo1503@gmail.com` (itu email akun)
 - **Telepon:** +62 813-1408-5961
 - **LinkedIn:** https://www.linkedin.com/in/dustin-wijaya-924710216/
+- **Akun sosmed pribadinya** (dicantumkan klikabel di entri Content Creator):
+  Instagram **@dustinwijaya_** · TikTok **@dustinwijayaa** · YouTube **@dustinwijayaa**
+- **Pencapaian utama di resume:** akun kontennya **naik dari nol ke 1 juta+ engagement, murni organik,
+  tanpa iklan berbayar**. Brand datang sendiri (inbound) karena gaya kontennya **soft-sell**. Ini angka
+  terkuat di resumenya — dipakai di summary dan di entri Content Creator
 - **Pendidikan:** Bunda Mulia University — Bachelor's degree, Business/Management/Marketing, **2021–2024**,
   **GPA 3,50/4,00**
 - **Riwayat kerja yang DIPAKAI di resume:**
@@ -189,6 +194,11 @@ ditulis sebagai **deskripsi kerja umum untuk peran tersebut**, bukan dari catata
 diberitahu lewat chat supaya dicek dan dihapus yang tidak sesuai.
 
 ⚠️ **Yang masih kosong:** daftar software yang dia pakai (editing, desain, analytics).
+
+⚠️ **KONFLIK HANDLE INSTAGRAM — BELUM SELESAI.** Dustin menyebut IG pribadinya **@dustinwijaya_**, tapi
+**seluruh 148 slide carousel dilabeli `@Dustin_wijaya04`** (lihat Standar Desain Carousel). Email lamarannya
+juga `Dustinwijaya04@gmail.com`. Kemungkinan dia punya dua akun, atau label carousel-nya salah. **Tanyakan
+dulu sebelum render ulang carousel** — kalau ternyata salah, semua slide harus dirender ulang.
 
 ### Tiga hal di LinkedIn Dustin yang perlu dia perbaiki (disampaikan lewat chat, jangan ditulis di materi)
 1. Headline masih **"Student at Bunda Mulia University"** padahal pendidikannya selesai 2024
