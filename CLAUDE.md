@@ -149,12 +149,19 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | Folder | Isi |
 |---|---|
 | `gfx-labastilla/` | 6 grafis untuk script Nicaragua La Bastilla |
+| `gfx-ats-cover-letter.png` | Acuan ATS & tanda tulisan AI untuk surat lamaran |
 | `gfx-tuangan/` | 4 grafis tinggi tuangan: `gfx-tinggi-tuangan` (tiga tinggi berdampingan) · `gfx-avalanche` (siklus 4 langkah) · `gfx-panjang-pecah` (breakup length) · `gfx-peta-tuangan` (tabel kapan turun/naik) |
 
 ### `cv/` — materi lamaran kerja Dustin
 | File | Isi |
 |---|---|
 | `Resume - Dustin Wijaya (EN).docx` | Resume bahasa Inggris, format mengikuti contoh resume temannya (Josua): nama besar, subjudul jabatan, baris kontak, lalu SUMMARY · EXPERIENCE · EDUCATION · SKILLS. Tanggal rata kanan pakai tab stop |
+| `Cover Letter - Dustin Wijaya (EN).docx` | Surat lamaran **ATS-safe**: satu kolom, rata kiri, tanpa tabel/kotak teks/gambar/header-footer, kontak sebagai teks biasa. Slot `[Job Title]`, `[Company Name]`, `[Hiring Manager Name]`, `[Date]`, dan satu paragraf "kenapa perusahaan ini" sengaja dikosongkan — **Dustin isi sendiri per lamaran** |
+
+**Gaya surat lamaran — permintaan Dustin: "ATS dan tidak AI banget".** Yang dipakai: buka dengan angka konkret
+(bukan "I am writing to express my interest"), kalimat panjang-pendek campur, kata kerja biasa, ada sudut pandang
+pribadi, nol pujian umum. Acuan lengkapnya ada di `assets/gfx-ats-cover-letter.png` (tiga kolom: bikin lolos ·
+bikin kesaring · tanda tulisan AI).
 
 ⚠️ **JABATAN DI TERROIR = `Creative Director`.** Sudah tiga kali ganti — `Founder` → `Creative Producer`
 (editan Dustin sendiri) → **`Creative Director`** (final). **JANGAN tulis "Founder", "Founded", "Creative
