@@ -156,44 +156,43 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 |---|---|
 | `Resume - Dustin Wijaya (EN).docx` | Resume bahasa Inggris, format mengikuti contoh resume temannya (Josua): nama besar, subjudul jabatan, baris kontak, lalu SUMMARY · EXPERIENCE · EDUCATION · SKILLS. Tanggal rata kanan pakai tab stop |
 
-**Subjudul resume:** `Founder & Marketing Lead`. **Dustin pegang marketing sendiri** — brand positioning,
-channel strategy, campaign planning, dan performance review lintas IG/TikTok/YouTube. Blok Founder ditulis
-sebagai job desc founder (dirikan perusahaan, positioning, marketing, operasi konten, arahkan editor lepas,
-program konten acara in-store & guest barista takeover), bukan cuma daftar kerjaan konten.
+⚠️ **JABATAN DI TERROIR = `Creative Director`.** Sudah tiga kali ganti — `Founder` → `Creative Producer`
+(editan Dustin sendiri) → **`Creative Director`** (final). **JANGAN tulis "Founder", "Founded", "Creative
+Producer", atau "Established the company"** di materi lamaran. Alasannya: **posisi yang dia lamar itu
+marketing dan content editing**, jadi jabatannya diselaraskan ke arah kreatif, bukan kepemilikan.
+Periode: **Desember 2024 – sekarang**. Subjudul resume: `Creative Director & Marketing Lead`.
 
-⚠️ **KOREKSI aturan sebelumnya soal Terroir.** Sempat dicatat "jangan sebut Terroir di CV" — itu salah tangkap.
-Maksud Dustin: **jangan tulis dia sebagai KARYAWAN Terroir**, karena dia **FOUNDER**-nya. Nama PT resmi:
-**PT Terroir Origin Indonesia**. Di resume ditulis sebagai `Founder — PT Terroir Origin Indonesia (Terroir IDN)`.
-
-### Data profesional Dustin (dari LinkedIn, dikirim sendiri olehnya)
-- **Nama publik:** Dustin Wijaya · **pronoun: He/Him** · **West Jakarta, Jakarta, Indonesia**
-- **LinkedIn:** https://www.linkedin.com/in/dustin-wijaya-924710216/ (104 followers, 70 connections)
-- **Pendidikan:** Bunda Mulia University — Bachelor's degree, Business/Management/Marketing, **2021–2024**
-- **Riwayat kerja:**
+### Data profesional Dustin
+- **Nama publik:** Dustin Wijaya · **pronoun: He/Him** · **Indonesia** (LinkedIn: West Jakarta)
+- **Email lamaran:** `Dustinwijaya04@gmail.com` — **bukan** `ericangelo1503@gmail.com` (itu email akun)
+- **Telepon:** +62 813-1408-5961
+- **LinkedIn:** https://www.linkedin.com/in/dustin-wijaya-924710216/
+- **Pendidikan:** Bunda Mulia University — Bachelor's degree, Business/Management/Marketing, **2021–2024**,
+  **GPA 3,50/4,00**
+- **Riwayat kerja yang DIPAKAI di resume:**
   | Posisi | Tempat | Periode |
   |---|---|---|
-  | Founder | PT Terroir Origin Indonesia | tanggal mulai **belum diketahui** |
+  | Creative Director | PT Terroir Origin Indonesia (Terroir IDN) | Des 2024 – sekarang |
   | Content Creator | Self-employed, remote | Jan 2022 – sekarang |
-  | Full-time Trader | Self-employed, remote | Feb 2018 – sekarang |
   | Digital Marketing Specialist | Freelance, on-site | Jan 2023 – Sep 2023 |
   | Assistant Vice President | PT Sahabat Maju Jaya, Jakarta | Jun 2022 – Jan 2023 |
-  | Financial Services Consultant | PT Kontak Perkasa Futures | Mar 2022 – Jun 2022 |
-- **Latar belakang analitis:** pasar finansial (equities, commodities, currencies, derivatives), analisis teknikal
-  & fundamental. Ini penting — jadi bahan framing "kebiasaan cek sumber primer" di resume
-- ⚠️ **LinkedIn TIDAK BISA dibaca dari environment ini** (proxy 403, profil butuh login). Kalau butuh isinya,
-  minta Dustin screenshot atau copy-paste. Jangan mengarang
+- **Dihapus sendiri oleh Dustin dari resume** (tetap ada di LinkedIn-nya): `Full-time Trader` (Feb 2018–
+  sekarang) dan `Financial Services Consultant` (PT Kontak Perkasa Futures, Mar–Jun 2022). Karena dua ini
+  dibuang, **framing "eight years of market analysis" dan kelompok skill Finance juga sudah dihapus** dari
+  resume — diganti kelompok `Creative direction` dan `Business`. Kalau dia melamar posisi finance lagi,
+  kembalikan
+- ⚠️ **LinkedIn TIDAK BISA dibaca dari environment ini** (proxy 403, profil butuh login). Minta screenshot
+  atau copy-paste. Jangan mengarang
 
-**Semua posisi sudah punya job desc penuh** (5–9 bullet per posisi). Bullet untuk Trader, Digital Marketing
-Specialist, Assistant Vice President, dan Financial Services Consultant ditulis sebagai **deskripsi kerja
-umum untuk peran tersebut**, bukan dari catatan cara kerja Dustin — sudah diberitahu ke dia lewat chat supaya
-dicek dan dihapus yang tidak sesuai.
+**Semua posisi punya job desc penuh.** Bullet untuk Digital Marketing Specialist dan Assistant Vice President
+ditulis sebagai **deskripsi kerja umum untuk peran tersebut**, bukan dari catatan cara kerja Dustin — sudah
+diberitahu lewat chat supaya dicek dan dihapus yang tidak sesuai.
 
-⚠️ **Yang masih placeholder di resume:** nomor telepon · tanggal mulai jadi Founder · daftar software. Juga belum jelas **handle Instagram mana yang aktif** (`@Dustin_wijaya04` dipakai
-di semua carousel, tapi Dustin pernah kasih link `instagram.com/dustinwijaya_`).
+⚠️ **Yang masih kosong:** daftar software yang dia pakai (editing, desain, analytics).
 
 ### Tiga hal di LinkedIn Dustin yang perlu dia perbaiki (disampaikan lewat chat, jangan ditulis di materi)
-1. Headline masih **"Student at Bunda Mulia University"** padahal pendidikannya selesai 2024 dan dia sudah founder
-2. Bagian **About** memposisikan dirinya sebagai "finance student", tidak menyebut sama sekali bahwa dia founder
+1. Headline masih **"Student at Bunda Mulia University"** padahal pendidikannya selesai 2024
+2. Bagian **About** memposisikan dirinya sebagai "finance student", tidak menyebut peran di Terroir sama sekali
 3. Ada typo **"Assitant Vice President"** (seharusnya "Assistant"), dan About menyebut jurusan **Finance**
    sedangkan bagian Education menulis **Business/Management/Marketing**
 
