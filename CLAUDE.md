@@ -150,6 +150,7 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 |---|---|
 | `gfx-labastilla/` | 6 grafis untuk script Nicaragua La Bastilla |
 | `gfx-ats-cover-letter.png` | Acuan ATS & tanda tulisan AI untuk surat lamaran |
+| `gfx-contra-oneliner.png` | Lima opsi one-liner profil Contra (maks 60 karakter) beserta jumlah karakternya |
 | `gfx-tuangan/` | 4 grafis tinggi tuangan: `gfx-tinggi-tuangan` (tiga tinggi berdampingan) · `gfx-avalanche` (siklus 4 langkah) · `gfx-panjang-pecah` (breakup length) · `gfx-peta-tuangan` (tabel kapan turun/naik) |
 
 ### `cv/` — materi lamaran kerja Dustin
@@ -183,6 +184,12 @@ Periode: **Desember 2024 – sekarang**. Subjudul resume: `Creative Director & M
   peran Digital Marketing Specialist = sisi website · menulis untuk orang yang belum punya kosakata kategorinya
 - ⚠️ **Masalah lokasi belum selesai:** Dustin di Indonesia, lowongannya Tallahassee. Di surat ada slot opsional
   soal relokasi yang harus dia putuskan sendiri. Sudah disampaikan lewat chat
+
+### Contra — profil freelance
+Dustin bikin akun di **Contra** (platform freelance kreatif). One-liner profil dibatasi **60 karakter**.
+Pilihan yang direkomendasikan: **"1M+ engagements, zero ad spend. Content that sells softly."** (58 karakter) —
+menggabungkan bukti (angka organik) dan pembeda (soft-sell) sekaligus. Opsi lain ada di `assets/gfx-contra-oneliner.png`.
+⚠️ **Selalu hitung karakternya dulu** sebelum menyodorkan opsi; batas Contra keras di 60.
 
 ### Data profesional Dustin
 - **Nama publik:** Dustin Wijaya · **pronoun: He/Him** · **Indonesia** (LinkedIn: West Jakarta)
