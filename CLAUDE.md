@@ -268,7 +268,7 @@ dulu sebelum render ulang carousel** — kalau ternyata salah, semua slide harus
 | `immersion-vs-percolation/` | 9 slide — versi yang dipakai, gaya ringkas |
 | `cone-vs-flatbottom/` | 9 slide — cone vs flat bottom dripper |
 | `dilute-bypass/` | 8 slide — kenapa kopi perlu di-dilute (bypass). **Dikirim sebagai PNG transparan** atas permintaan Dustin |
-| `suhu-air/` | 7 slide — pengaruh suhu air (88/92/95/100 °C). **PNG transparan.** Twist-nya: suhu = alat pengatur ekstraksi, bukan bahan rasa |
+| `suhu-air/` | 7 slide — pengaruh suhu air, memakai **suhu yang benar-benar diuji riset** (Pangborn 65/80/90/100 · UC Davis 87/90/93 · Wang & Lim 4/23/50/93 · SCA 90–96). **PNG transparan.** Tulang punggungnya: Pangborn vs Batali, suhu bekerja lewat ekstraksi |
 
 ---
 
@@ -608,9 +608,21 @@ menyebut versi lamanya. Koreksi cukup disampaikan ke Dustin lewat chat, atau dis
 - **Framing yang dipakai di carousel:** *"suhu bukan bahan rasa, suhu itu alat"* — suhu penting karena mengubah
   ekstraksi, bukan karena panasnya menciptakan rasa. Suhu, gilingan, dan waktu adalah **tiga jalan menuju tempat
   yang sama**
-- ⚠️ **JANGAN BIKIN TABEL "RASA PER SUHU"** (mis. 88 = asam, 95 = pahit). Tidak ada di riset mana pun, dan justru
-  **bertentangan** dengan Batali dkk. Dustin sempat minta perbandingan per suhu — yang diberikan adalah posisi
-  terhadap rentang SCA + efek ke laju ekstraksi, bukan deskriptor rasa
+- ⚠️ **Pangborn, R.M. (1982)** — "Influence of water composition, extraction procedures, and holding time and
+  temperature on quality of coffee beverage", *Lebensmittel-Wissenschaft und Technologie* **15(3):161–168**.
+  Tuangan manual sambil diaduk, air suling, diuji di **65, 80, 90, dan 100 °C**. **Pahit dan asam naik seiring
+  suhu naik.** Eksperimen pelengkap dengan air sadah & lunak di 80 dan 100 °C hasilnya serupa. Ini satu-satunya
+  riset yang menguji sampai **100 °C**
+- ⚠️ **SINTESIS PALING KUAT — Pangborn vs Batali kelihatan bertabrakan, padahal tidak.** Pangborn **hanya mengubah
+  suhu**, jadi ekstraksi ikut naik → pahit & asam naik. Batali **menyamakan TDS dan extraction yield lebih dulu**,
+  jadi suhunya sendiri tidak berpengaruh. **Kesimpulan: suhu bekerja LEWAT ekstraksi, bukan langsung ke rasa.**
+  Ini tulang punggung carousel `suhu-air/`
+- ⚠️ **JANGAN BIKIN TABEL "RASA PER ANGKA SUHU"** (mis. 88 = asam, 95 = pahit). Belum ada riset yang bikin daftar
+  deskriptor per suhu. Yang ada cuma **arah umum** dari Pangborn, dan arah itu pun hilang begitu ekstraksinya
+  disamakan
+- ⚠️ **ATURAN DARI DUSTIN (permintaan langsung):** kalau dia menyebut angka sebagai contoh, **jangan diikuti
+  mentah-mentah** — pakai angka yang memang sudah diteliti orang. Kata dia: *"suhunya itu contoh aja."* Versi
+  pertama carousel ini memakai 88/92/95/100 mengikuti contohnya; diganti ke suhu yang benar-benar diuji
 - **Air mendidih (100 °C):** tidak ada bukti merusak kopi filter. **James Hoffmann** justru menganjurkannya karena
   lebih konsisten ("Brew your coffee with boiling water"). Level **BUKTI SEDANG** — posisi praktisi, bukan riset
 - **Patokan per level sangrai** (Light 94–96 · Medium 92–94 · Dark 90–92) = **kebiasaan industri, BUKAN standar
