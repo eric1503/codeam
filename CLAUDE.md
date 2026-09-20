@@ -268,6 +268,7 @@ dulu sebelum render ulang carousel** — kalau ternyata salah, semua slide harus
 | `immersion-vs-percolation/` | 9 slide — versi yang dipakai, gaya ringkas |
 | `cone-vs-flatbottom/` | 9 slide — cone vs flat bottom dripper |
 | `dilute-bypass/` | 8 slide — kenapa kopi perlu di-dilute (bypass). **Dikirim sebagai PNG transparan** atas permintaan Dustin |
+| `suhu-air/` | 7 slide — pengaruh suhu air (88/92/95/100 °C). **PNG transparan.** Twist-nya: suhu = alat pengatur ekstraksi, bukan bahan rasa |
 
 ---
 
@@ -592,6 +593,30 @@ menyebut versi lamanya. Koreksi cukup disampaikan ke Dustin lewat chat, atau dis
   pour-over. Tetap sah sebagai bukti bahwa agitasi menaikkan padatan terlarut, tapi jangan dikutip seolah-olah
   itu riset pour-over
 - **Grafis:** `assets/gfx-tuangan/` — 4 gambar, lihat tabel `assets/` di atas
+
+### Suhu air seduh (88 · 92 · 95 · 100 °C)
+- **Patokan SCA Golden Cup: 93 ± 3 °C** (90–96 °C), **diukur saat air menyentuh bubuk** — bukan suhu di ketel
+- **Wang & Lim (2021)**, *Journal of Food Process Engineering*, DOI **10.1111/jfpe.13748**, University of Guelph.
+  Menguji **4, 23, 50, 93 °C** di empat ukuran gilingan (VMD 139 · 643 · 1.450 · 1.747 μm). **Extraction yield naik
+  seiring suhu naik dan ukuran partikel mengecil.** Ekstraksi dua tahap: cepat dari broken cells, lalu lambat dari
+  intact cells. **BUKTI KUAT**
+- ⚠️ **TEMUAN PALING PENTING & KONTRA-INTUITIF — Batali, Ristenpart & Guinard (2020)**, *Scientific Reports* 10:16450,
+  DOI **10.1038/s41598-020-73341-4**, PMC7536440: "Brew temperature, at fixed brew strength and extraction, has little
+  impact on the sensory profile of drip brew coffee". Menyeduh di **87, 90, 93 °C**, gilingan & waktu disesuaikan
+  supaya **TDS dan extraction yield sama persis**. Hasil: **TDS dan extraction yield sangat memengaruhi profil sensori,
+  suhunya sendiri TIDAK**. **BUKTI KUAT**
+- **Framing yang dipakai di carousel:** *"suhu bukan bahan rasa, suhu itu alat"* — suhu penting karena mengubah
+  ekstraksi, bukan karena panasnya menciptakan rasa. Suhu, gilingan, dan waktu adalah **tiga jalan menuju tempat
+  yang sama**
+- ⚠️ **JANGAN BIKIN TABEL "RASA PER SUHU"** (mis. 88 = asam, 95 = pahit). Tidak ada di riset mana pun, dan justru
+  **bertentangan** dengan Batali dkk. Dustin sempat minta perbandingan per suhu — yang diberikan adalah posisi
+  terhadap rentang SCA + efek ke laju ekstraksi, bukan deskriptor rasa
+- **Air mendidih (100 °C):** tidak ada bukti merusak kopi filter. **James Hoffmann** justru menganjurkannya karena
+  lebih konsisten ("Brew your coffee with boiling water"). Level **BUKTI SEDANG** — posisi praktisi, bukan riset
+- **Patokan per level sangrai** (Light 94–96 · Medium 92–94 · Dark 90–92) = **kebiasaan industri, BUKAN standar
+  resmi SCA**. Sudah dicatat juga di bagian Roast level di atas
+- ⚠️ Jebakan yang sering muncul di blog: menulis **"18–22% TDS"**. Itu salah — 18–22% adalah **extraction yield**;
+  TDS-nya 1,15–1,35%
 
 ## 7. Buku Rujukan
 
