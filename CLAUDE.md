@@ -269,6 +269,7 @@ dulu sebelum render ulang carousel** — kalau ternyata salah, semua slide harus
 | `cone-vs-flatbottom/` | 9 slide — cone vs flat bottom dripper |
 | `dilute-bypass/` | 8 slide — kenapa kopi perlu di-dilute (bypass). **Dikirim sebagai PNG transparan** atas permintaan Dustin |
 | `suhu-air/` | 7 slide — pengaruh suhu air, memakai **suhu yang benar-benar diuji riset** (Pangborn 65/80/90/100 · UC Davis 87/90/93 · Wang & Lim 4/23/50/93 · SCA 90–96). **PNG transparan.** Tulang punggungnya: Pangborn vs Batali, suhu bekerja lewat ekstraksi |
+| `profil-roasting/` | 7 slide — cara seduh per profil roasting (light · omni · medium · dark). **PNG transparan.** Slide terakhir pertanyaan engagement "kamu tim yang mana?" atas permintaan Dustin |
 
 ---
 
@@ -629,6 +630,34 @@ menyebut versi lamanya. Koreksi cukup disampaikan ke Dustin lewat chat, atau dis
   resmi SCA**. Sudah dicatat juga di bagian Roast level di atas
 - ⚠️ Jebakan yang sering muncul di blog: menulis **"18–22% TDS"**. Itu salah — 18–22% adalah **extraction yield**;
   TDS-nya 1,15–1,35%
+
+### Cara seduh per level sangrai (light · omni · medium · dark)
+- **Mekanisme dasarnya:** sangrai mengubah dinding sel dari kaku jadi lentur lalu membuka pori-pori. Makin gelap →
+  **makin berpori, makin rendah kerapatan, makin mudah larut**. Light ≈ **0,7–0,8 g/cm³**, dark ≈ **0,5–0,6 g/cm³**
+  (data industri, BUKTI SEDANG). Konsekuensinya: dark boleh digiling lebih kasar untuk ekstraksi yang setara
+- **Frost, Ristenpart & Guinard (2020)**, *Journal of Food Science* **85(8):2530–2543**, DOI 10.1111/1750-3841.15326 —
+  satu kopi washed Arabica disangrai ke **light, medium, dark**, tiap level diseduh ke **sembilan target TDS & PE**.
+  **21 dari 30 atribut** berbeda signifikan. Tren konsisten di semua level sangrai: **makin tinggi TDS makin pahit &
+  asam, makin rendah TDS makin manis**. **BUKTI KUAT**
+- **Patokan yang dipakai di carousel** (kebiasaan industri, BUKAN standar SCA — selalu tandai):
+  | Level | Gilingan | Suhu | Rasio |
+  |---|---|---|---|
+  | Light | Lebih halus | 94–96 °C | 1:16 – 1:17 |
+  | Omni | Medium-fine – medium | 93–94 °C | — |
+  | Medium | Medium | 92–94 °C | 1:15 – 1:16 |
+  | Dark | Lebih kasar | 88–92 °C | 1:14 – 1:15 |
+- Risiko utama: **light = kurang ekstraksi** (asam tajam, tipis) · **dark = kelewat ekstraksi** (pahit, seret)
+- ⚠️ **DEFINISI OMNI ROAST — sering disalahpahami.** Omni **bukan** sekadar "level di tengah antara light dan medium".
+  Definisinya: **satu profil sangrai yang dirancang jalan di espresso DAN filter**, ciri utamanya **jendela ekstraksi
+  yang lebar**. Levelnya memang biasanya light ke medium, tapi itu akibat, bukan definisi. Omni juga **tidak dibuat
+  supaya rasanya sama di semua metode** — sisi yang muncul memang beda (lebih cokelat di espresso, lebih buah di filter).
+  Sumber: Perfect Daily Grind, Fresh Cup. Dustin sempat mendefinisikannya sebagai "di tengah-tengah" — sudah diluruskan
+  di slide tanpa menyebut versi lamanya
+- **Dark roast melepas gas paling cepat** → jendela rasa terbaiknya datang lebih awal dibanding light
+- ⚠️ Ingat **Batali dkk. (2020)**: pada TDS & extraction yield yang sama, suhu 87–93 °C tidak mengubah rasa. Jadi
+  "light butuh suhu lebih tinggi" itu soal **mencapai ekstraksi yang cukup**, bukan karena panasnya sendiri bikin enak
+- **Pertanyaan engagement di slide terakhir** ("kamu tim yang mana?") = permintaan langsung Dustin. Ini **pengecualian
+  aturan 7** (jangan kasih PR) — pertanyaan interaksi berbeda dari tugas/PR, dan dia yang minta
 
 ## 7. Buku Rujukan
 
