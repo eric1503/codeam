@@ -8,7 +8,11 @@ tambahkan ke sini.**
 
 ## 1. Tentang Orang & Proyek
 
-- **Nama:** Dustin (Eric Angelo / `eric1503`, `ericangelo1503@gmail.com`)
+- **Nama:** **Dustin Wijaya** — pakai nama ini di SEMUA materi, tanpa kecuali
+- ⚠️ **JANGAN PERNAH PAKAI NAMA LAIN.** Permintaan langsung Dustin: nama alternatif yang sempat muncul di arsip
+  lama **tidak boleh** dipakai di dokumen, PDF, CV, surat lamaran, carousel, atau materi apa pun. Email untuk semua
+  keperluan: `Dustinwijaya04@gmail.com`. Satu-satunya pengecualian teknis adalah **path repositori GitHub**
+  (`eric1503/codeam`) yang memang dibutuhkan untuk git push — itu identitas sistem, bukan nama yang ditampilkan
 - **Instagram:** `@Dustin_wijaya04` — ini yang dipakai sebagai label di semua carousel
 - **Tempat kerja / brand:** **Terroir IDN** (by Terroir Lab), Hampton Avenue Blok H No 5, Gading Serpong
 - **Topik konten:** kopi — seduh manual, sains kopi, edukasi pemula
@@ -151,6 +155,7 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `gfx-labastilla/` | 6 grafis untuk script Nicaragua La Bastilla |
 | `gfx-ats-cover-letter.png` | Acuan ATS & tanda tulisan AI untuk surat lamaran |
 | `gfx-contra-oneliner.png` | Lima opsi one-liner profil Contra (maks 60 karakter) beserta jumlah karakternya |
+| `gfx-linkedin-headline.png` | Lima opsi headline LinkedIn (maks 220 karakter) beserta jumlah karakternya |
 | `gfx-tuangan/` | 4 grafis tinggi tuangan: `gfx-tinggi-tuangan` (tiga tinggi berdampingan) · `gfx-avalanche` (siklus 4 langkah) · `gfx-panjang-pecah` (breakup length) · `gfx-peta-tuangan` (tabel kapan turun/naik) |
 
 ### `cv/` — materi lamaran kerja Dustin
@@ -195,6 +200,14 @@ Periode: **Desember 2024 – sekarang**. Subjudul resume: `Creative Director & M
   waktu vs tetap memimpin Terroir · target pendapatan · skala Terroir yang dituju · kesediaan relokasi ke luar
   negeri · rencana sertifikasi (Q Grader / modul SCA / kompetisi)
 
+### LinkedIn — headline
+Batas headline LinkedIn: **220 karakter**. Headline lama ("Student at Bunda Mulia University") sudah usang.
+Rekomendasi: **"Creative Director at Terroir IDN | Marketing end to end for specialty coffee | Grew a content
+account from 0 to 1M+ engagements, organic only"** (141 karakter). Opsi lain di `assets/gfx-linkedin-headline.png`.
+⚠️ **Permintaan Dustin: jangan bongkar cara kerja bagian dalam di headline** — HEIA, standar bukti tiga tingkat,
+programming berbasis funnel, tinjauan dashboard. Kata dia: *"orang-orang mau tau luarnya aja."* Detail itu tempatnya
+di bagian About dan di wawancara.
+
 ### Contra — profil freelance
 Dustin bikin akun di **Contra** (platform freelance kreatif). One-liner profil dibatasi **60 karakter**.
 Pilihan yang direkomendasikan: **"1M+ engagements, zero ad spend. Content that sells softly."** (58 karakter) —
@@ -204,7 +217,7 @@ menggabungkan bukti (angka organik) dan pembeda (soft-sell) sekaligus. Opsi lain
 ### Data profesional Dustin
 - **Tanggal lahir: 31 Oktober 2002.** Umur 23 (genap 24 pada 31 Okt 2026). Shio **Kuda Air** (壬午 Ren Wu)
 - **Nama publik:** Dustin Wijaya · **pronoun: He/Him** · **Indonesia** (LinkedIn: West Jakarta)
-- **Email lamaran:** `Dustinwijaya04@gmail.com` — **bukan** `ericangelo1503@gmail.com` (itu email akun)
+- **Email:** `Dustinwijaya04@gmail.com` — dipakai untuk semua materi
 - **Telepon:** +62 813-1408-5961
 - **LinkedIn:** https://www.linkedin.com/in/dustin-wijaya-924710216/
 - **Akun sosmed pribadinya** (dicantumkan klikabel di entri Content Creator):
