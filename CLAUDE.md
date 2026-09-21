@@ -215,7 +215,11 @@ menggabungkan bukti (angka organik) dan pembeda (soft-sell) sekaligus. Opsi lain
 ⚠️ **Selalu hitung karakternya dulu** sebelum menyodorkan opsi; batas Contra keras di 60.
 
 ### Data profesional Dustin
-- **Tanggal lahir: 31 Oktober 2002.** Umur 23 (genap 24 pada 31 Okt 2026). Shio **Kuda Air** (壬午 Ren Wu)
+- **Tanggal lahir: 4 Agustus 2003.** Umur **23** (genap 24 pada 4 Agustus 2027). Shio **Kambing Air**
+  (癸未 / Gui Wei) — tahun lunar 1 Feb 2003 s/d 21 Jan 2004
+- ⚠️ **Konsekuensi umur:** saat mulai trading (Feb 2018 menurut LinkedIn) Dustin **berumur 14 tahun**. Resume dan
+  surat lamaran menulis *"I have been in the market since high school"* — di Indonesia umur 14 masih SMP. Sudah
+  disampaikan ke Dustin lewat chat supaya dia putuskan sendiri mau diubah atau tidak
 - **Nama publik:** Dustin Wijaya · **pronoun: He/Him** · **Indonesia** (LinkedIn: West Jakarta)
 - **Email:** `Dustinwijaya04@gmail.com` — dipakai untuk semua materi
 - **Telepon:** +62 813-1408-5961
