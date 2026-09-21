@@ -158,6 +158,7 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 |---|---|
 | `Resume - Dustin Wijaya (EN).docx` | Resume bahasa Inggris, format mengikuti contoh resume temannya (Josua): nama besar, subjudul jabatan, baris kontak, lalu SUMMARY · EXPERIENCE · EDUCATION · SKILLS. Tanggal rata kanan pakai tab stop |
 | `Dustin Wijaya - Cover Letter - Trulieve.docx` | Surat lamaran untuk **Trulieve — Ecommerce & Mobile App Content Specialist (21232)**, Tallahassee FL. Sudah disesuaikan ke iklan lowongannya |
+| `Dustin Wijaya - Profil & Arah Tujuan.pdf` | **Dosir pribadi 5 halaman (PDF, A4)** — biodata, kontak & kanal, pendidikan, riwayat kerja, Terroir IDN, pencapaian & angka, sistem kerja (HEIA/jadwal/standar bukti), keahlian, tujuan & arah, dan daftar yang perlu dirapikan. Palet terang (aksen `#B07A2B`) supaya enak dicetak, beda dari palet gelap carousel |
 | `Cover Letter - Dustin Wijaya (EN).docx` | Template kosong, surat lamaran **ATS-safe**: satu kolom, rata kiri, tanpa tabel/kotak teks/gambar/header-footer, kontak sebagai teks biasa. Slot `[Job Title]`, `[Company Name]`, `[Hiring Manager Name]`, `[Date]`, dan satu paragraf "kenapa perusahaan ini" sengaja dikosongkan — **Dustin isi sendiri per lamaran** |
 
 **Gaya surat lamaran — permintaan Dustin: "ATS dan tidak AI banget".** Yang dipakai: buka dengan angka konkret
@@ -185,6 +186,15 @@ Periode: **Desember 2024 – sekarang**. Subjudul resume: `Creative Director & M
 - ⚠️ **Masalah lokasi belum selesai:** Dustin di Indonesia, lowongannya Tallahassee. Di surat ada slot opsional
   soal relokasi yang harus dia putuskan sendiri. Sudah disampaikan lewat chat
 
+### Tujuan & arah Dustin (yang sudah dinyatakan sendiri)
+- **Audiens: target 10.000 pengikut** lintas Instagram, TikTok, YouTube
+- **Karier:** masuk ke posisi **marketing dan content editing**. Lamaran berjalan: Trulieve
+- **Jalur lepas:** freelance lewat **Contra** untuk klien internasional
+- **Merek:** membangun Terroir IDN sebagai merek kopi spesialti berbasis bukti, blog terroiridn.com sebagai kanal sendiri
+- ⚠️ **Yang BELUM dia tetapkan — jangan diisi tebakan:** tenggat target follower · pilihan antara karyawan penuh
+  waktu vs tetap memimpin Terroir · target pendapatan · skala Terroir yang dituju · kesediaan relokasi ke luar
+  negeri · rencana sertifikasi (Q Grader / modul SCA / kompetisi)
+
 ### Contra — profil freelance
 Dustin bikin akun di **Contra** (platform freelance kreatif). One-liner profil dibatasi **60 karakter**.
 Pilihan yang direkomendasikan: **"1M+ engagements, zero ad spend. Content that sells softly."** (58 karakter) —
@@ -192,6 +202,7 @@ menggabungkan bukti (angka organik) dan pembeda (soft-sell) sekaligus. Opsi lain
 ⚠️ **Selalu hitung karakternya dulu** sebelum menyodorkan opsi; batas Contra keras di 60.
 
 ### Data profesional Dustin
+- **Tanggal lahir: 31 Oktober 2002.** Umur 23 (genap 24 pada 31 Okt 2026). Shio **Kuda Air** (壬午 Ren Wu)
 - **Nama publik:** Dustin Wijaya · **pronoun: He/Him** · **Indonesia** (LinkedIn: West Jakarta)
 - **Email lamaran:** `Dustinwijaya04@gmail.com` — **bukan** `ericangelo1503@gmail.com` (itu email akun)
 - **Telepon:** +62 813-1408-5961
