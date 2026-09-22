@@ -157,6 +157,7 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `gfx-contra-oneliner.png` | Lima opsi one-liner profil Contra (maks 60 karakter) beserta jumlah karakternya |
 | `gfx-linkedin-headline.png` | Lima opsi headline LinkedIn (maks 220 karakter) beserta jumlah karakternya |
 | `gfx-tuangan/` | 4 grafis tinggi tuangan: `gfx-tinggi-tuangan` (tiga tinggi berdampingan) · `gfx-avalanche` (siklus 4 langkah) · `gfx-panjang-pecah` (breakup length) · `gfx-peta-tuangan` (tabel kapan turun/naik) |
+| `gfx-agitasi/` | 1 grafis rantai agitasi: `gfx-agitasi-rantai` (agitasi naik → fines turun → bed mampet → channeling, lalu dua hasilnya: pahit + asam) |
 | `gfx-imperc/` | 4 grafis immersion vs percolation: `gfx-imperc-mekanisme` (kenapa air bersih vs air yang makin penuh) · `gfx-imperc-kurva` (kurva ekstraksi — rendaman melandai, air lewat terus naik) · `gfx-imperc-saringan` (kertas vs logam, temuan PMC10486461) · `gfx-imperc-peta` (peta pilih metode) |
 
 ### `cv/` — materi lamaran kerja Dustin
@@ -303,6 +304,7 @@ dulu sebelum render ulang carousel** — kalau ternyata salah, semua slide harus
 | `cone-vs-flatbottom/` | 9 slide — cone vs flat bottom dripper |
 | `dilute-bypass/` | 8 slide — kenapa kopi perlu di-dilute (bypass). **Dikirim sebagai PNG transparan** atas permintaan Dustin |
 | `suhu-air/` | 7 slide — pengaruh suhu air, memakai **suhu yang benar-benar diuji riset** (Pangborn 65/80/90/100 · UC Davis 87/90/93 · Wang & Lim 4/23/50/93 · SCA 90–96). **PNG transparan.** Tulang punggungnya: Pangborn vs Batali, suhu bekerja lewat ekstraksi |
+| `agitasi/` | 7 slide — dampak agitasi berlebih. **PNG transparan.** Punya `caption-dan-sumber.md` (caption siap pakai + semua link sumber + tabel klaim → level bukti) |
 | `profil-roasting/` | 7 slide — cara seduh per profil roasting (light · omni · medium · dark). **PNG transparan.** Slide terakhir pertanyaan engagement "kamu tim yang mana?" atas permintaan Dustin |
 
 ---
@@ -563,6 +565,48 @@ menyebut versi lamanya. Koreksi cukup disampaikan ke Dustin lewat chat, atau dis
   Gagné "Why do Percolation and Immersion Coffee Taste so Different?" (2019) · Scott Rao (2017) ·
   Perfect Daily Grind
 - **Grafis:** `assets/gfx-imperc/` — 4 gambar · **Panduan lengkap:** `referensi/Immersion & Percolation - Panduan Lengkap.pdf`
+
+### Agitasi (dampak kalau kelewatan)
+- **Definisi yang dipakai:** agitasi = semua gerakan yang mengaduk bed selama seduhan — **tuangan, stir, swirl, tap**.
+  Urutan kekuatannya: tuangan > stir > swirl > tap (konsensus praktisi, BUKTI SEDANG)
+- **Rantai sebab-akibatnya** (ini tulang punggung carousel `agitasi/`): agitasi naik → **fines turun ke dasar bed** →
+  **bed mampet** (fines menyumbat pori kertas) → **channeling** → cangkirnya **pahit DAN asam barengan**.
+  Jalur yang terus dilewati air jadi over-extracted (pahit); bubuk di luar jalur jadi under-extracted (asam, tipis)
+- ⚠️ **FRAMING WAJIB — agitasi itu variabel, BUKAN musuh.** Ditaruh di tempat yang tepat (bloom) dia justru
+  menurunkan pahit, karena semua bubuk basah bareng dan ga ada kantong kering. Lance Hedrick malah memakai bloom
+  stir dengan sengaja. Jangan bikin konten yang bilang "jangan agitasi" — yang salah itu **kelewatan** dan
+  **waktunya**, bukan agitasinya
+- **Lee, W.T., Smith & Arshad (2023)**, *Physics of Fluids* **35(5):054110**, DOI **10.1063/5.0138998**
+  (pracetak arXiv 2206.12373) — "Uneven Extraction in Coffee Brewing". Model dua jalur aliran: **di bawah ukuran
+  gilingan kritis, ekstraksi justru TURUN** seiring gilingan makin halus. Penyebabnya ekstraksi yang ga merata di
+  dalam bed. Ini penjelasan formal buat "batas kehalusan" di *Matter* (2020). **BUKTI KUAT**
+- **Moroney dkk. (2019)**, *PLOS ONE* **14(7):e0219906**, DOI 10.1371/journal.pone.0219906 — keseragaman ekstraksi
+  di bed berpori lewat pemodelan matematis + CFD. Penulis: Moroney, O'Connell, Meikle-Janney, O'Brien, Walker, Lee.
+  ⚠️ Ini **terbitan yang berbeda** dari Moroney dkk. (2015) yang selama ini dipakai buat Hukum Darcy & double-porosity
+- **Gagné, "The Physics of Fines Migration"** (Coffee ad Astra, 1 Feb 2020) — fines pindah ke bawah bed selama seduhan;
+  **agitasi mempercepatnya**; penumpukan di kertas bisa bikin mampet, dan mampet memperparah channeling serta bypass.
+  Saran dia: nuang lebih rendah & pelan, swirl lembut waktu bloom, hindari stir. **BUKTI SEDANG**
+- **Scott Rao, "Managing astringency in coffee brewing"** (9 Okt 2020) — **sebagian besar polifenol astringen di
+  seduhan percolation keluar lewat channeling**; di immersion astringensi jauh lebih jarang justru karena ga ada
+  channeling. Nyambung langsung ke bagian Percolation vs Immersion di atas. **BUKTI SEDANG**
+- **Barista Hustle, "The Rao Spin"** — swirl mengaduk **seluruh bed sekaligus**, sedangkan stir bisa ninggalin
+  sebagian bed tanpa disadari. ⚠️ Tapi di gilingan halus, **swirl yang terlalu keras bikin fines jebol ke bawah**
+  dan malah menciptakan channel. Jadi swirl bukan otomatis aman
+- ⚠️ **KOREKSI catatan lama di file ini — Schmieder dkk. (2023)**, *Foods* 12(15):2871 itu **riset ESPRESSO**
+  ("Influence of Flow Rate, Particle Size, and Temperature on Espresso Extraction Kinetics"), bukan pour-over.
+  Temuan "flow rate variabel paling dominan" tetap sah, tapi **jangan dikutip seolah-olah itu riset pour-over**.
+  Berlaku juga buat bagian Termal vs Mekanik dan Perkolasi di atas
+- ⚠️ **Ahmed dkk. (2019)** (DOI 10.1002/jsfa.9186) itu **cold brew** — sudah dicatat di bagian Tinggi tuangan.
+  Arahnya sah (agitasi & stirring menaikkan padatan terlarut), angkanya jangan dipindah ke pour-over
+- **Sumber video** (BUKTI SEDANG, uji praktisi): "Brewing with turbulence! How agitation affects coffee's taste"
+  (2018, youtube.com/watch?v=MUA2iTx_dCU) · "More pour over coffee brewing experiments! Stirring from the beginning
+  to the end of a brew?" (2024, tzFIKbl3W40) · James Hoffmann "The Ultimate V60 Technique" (AI4ynXzkSQo) ·
+  "Art of Pour Over Coffee | Agitation vs No Agitation" (2023, ayelOYcZQMo).
+  ⚠️ **Nama channel dua video pertama belum terverifikasi** dari environment ini — sebut judulnya saja, jangan
+  klaim siapa pembuatnya
+- ⚠️ **Tanggal "The Ultimate V60 Technique"**: catatan lama di file ini menulis 2020, satu sumber menyebut Agustus 2019.
+  Belum diverifikasi — **jangan sebut tahunnya** di materi. Rasio 30 g : 500 g = **1:16,7** tetap berlaku
+- **Semua link & tabel klaim → level bukti:** `carousel/agitasi/caption-dan-sumber.md`
 
 ### Cut brew
 - ⚠️ **"Cut brew" BUKAN istilah baku** di literatur kopi — ga ketemu di sumber Inggris maupun Indonesia.
