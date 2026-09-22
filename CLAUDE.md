@@ -157,6 +157,7 @@ Render HTML → screenshot JPEG quality 94 / PNG `omitBackground: true`.
 | `gfx-contra-oneliner.png` | Lima opsi one-liner profil Contra (maks 60 karakter) beserta jumlah karakternya |
 | `gfx-linkedin-headline.png` | Lima opsi headline LinkedIn (maks 220 karakter) beserta jumlah karakternya |
 | `gfx-tuangan/` | 4 grafis tinggi tuangan: `gfx-tinggi-tuangan` (tiga tinggi berdampingan) · `gfx-avalanche` (siklus 4 langkah) · `gfx-panjang-pecah` (breakup length) · `gfx-peta-tuangan` (tabel kapan turun/naik) |
+| `gfx-imperc/` | 4 grafis immersion vs percolation: `gfx-imperc-mekanisme` (kenapa air bersih vs air yang makin penuh) · `gfx-imperc-kurva` (kurva ekstraksi — rendaman melandai, air lewat terus naik) · `gfx-imperc-saringan` (kertas vs logam, temuan PMC10486461) · `gfx-imperc-peta` (peta pilih metode) |
 
 ### `cv/` — materi lamaran kerja Dustin
 | File | Isi |
@@ -262,6 +263,11 @@ dulu sebelum render ulang carousel** — kalau ternyata salah, semua slide harus
 2. Bagian **About** memposisikan dirinya sebagai "finance student", tidak menyebut peran di Terroir sama sekali
 3. Ada typo **"Assitant Vice President"** (seharusnya "Assistant"), dan About menyebut jurusan **Finance**
    sedangkan bagian Education menulis **Business/Management/Marketing**
+
+### `referensi/` — dokumen panduan panjang (PDF)
+| File | Isi |
+|---|---|
+| `Immersion & Percolation - Panduan Lengkap.pdf` | Panduan 6 halaman, 4 ilustrasi tertanam (dari `assets/gfx-imperc/`). Isi: definisi · mekanisme · rem alami rendaman · temuan Liang dkk. (2021) · bahan saringan mengalahkan metode · dampak ke rasa & body · teknik per metode + hibrida · peringatan soal angka extraction · tabel klaim → level bukti (8 baris) · daftar sumber |
 
 ### `blog/` — artikel untuk website terroiridn.com
 | File | Isi |
@@ -536,8 +542,27 @@ menyebut versi lamanya. Koreksi cukup disampaikan ke Dustin lewat chat, atau dis
   saringan logam → lebih banyak senyawa **buah & sangrai**
 - Alat gabungan: **Hario Switch** (yang dipakai Dustin) dan **Clever Dripper** — rendam dulu, lalu
   turunkan lewat kertas
-- Sumber: PMC10486461 (2023) · *Scientific Reports* (2021) · Moroney dkk. (2015) ·
-  Gagné "Why do Percolation and Immersion Coffee Taste so Different?" (2019) · Perfect Daily Grind
+- ⚠️ **TEMUAN KUNCI KEDUA — Liang, Chan & Ristenpart (2021)**, *Scientific Reports* 11, DOI
+  **10.1038/s41598-021-85787-1**, PMC7994670 (UC Davis). Model desorpsi kesetimbangan untuk seduhan
+  rendaman penuh: **TDS berbanding terbalik dengan brew ratio, TAPI extraction yield TIDAK berubah
+  mengikuti rasio** — bertahan di sekitar **21%** di rentang rasio yang lebar. Artinya di rendaman,
+  ngubah rasio itu ngubah **kepekatan**, bukan seberapa banyak yang kesedot dari bubuk. **BUKTI KUAT**
+- **Mekanisme versi kimianya** (Gagné, 2019): persamaan **Noyes–Whitney** — laju larut sebanding dengan
+  selisih antara kepekatan jenuh dan kepekatan cairan di sekitar bubuk. Di air lewat, kepekatan cairan itu
+  dipaksa mendekati **nol** terus-menerus karena airnya selalu diganti; di rendaman, angkanya naik terus
+  sampai selisihnya habis. Ini penjelasan formal dari "air bersih vs air yang makin penuh"
+- **Detail PMC10486461 yang layak dipakai:** pembeda utama antar kelompok = senyawa **2-furanmethanol**.
+  **French Press paling rendah di hampir semua parameter sensori — KECUALI acidity**, di situ dia justru
+  menonjol. Jadi "French Press = body tebal, rasa tumpul" itu penyederhanaan
+- ⚠️ **PERINGATAN ANGKA — Scott Rao (2017): extraction rendaman dan extraction air lewat TIDAK bisa
+  dibandingkan langsung.** Di rendaman ada cairan yang **tertahan di dalam bubuk** (retained/interstitial
+  liquid) dan ga ikut ke cangkir, jadi hitungan EY-nya beda basis. "20%" di French Press ≠ "20%" di V60.
+  Selalu sebut ini kalau ada yang bandingin angka extraction antar metode
+- Sumber: PMC10486461 (2023) · Liang, Chan & Ristenpart (2021), *Scientific Reports*,
+  DOI 10.1038/s41598-021-85787-1 · Moroney dkk. (2015) ·
+  Gagné "Why do Percolation and Immersion Coffee Taste so Different?" (2019) · Scott Rao (2017) ·
+  Perfect Daily Grind
+- **Grafis:** `assets/gfx-imperc/` — 4 gambar · **Panduan lengkap:** `referensi/Immersion & Percolation - Panduan Lengkap.pdf`
 
 ### Cut brew
 - ⚠️ **"Cut brew" BUKAN istilah baku** di literatur kopi — ga ketemu di sumber Inggris maupun Indonesia.
